@@ -14,7 +14,8 @@ const links = [
   // { label: "Careers", url: "#" },
   // { label: "Sign Up", url: "#" },
   { label: "Terms & Conditions", url: "/tnc" },
-  { label: "Privacy Policy", url: "/privacy-policy" }
+  { label: "Privacy Policy", url: "/privacy-policy" },
+  { label: "Refund Policy", url: "/refund-policy" }
 ];
 const accounts = [
   {
