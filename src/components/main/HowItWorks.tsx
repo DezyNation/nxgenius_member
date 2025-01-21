@@ -9,11 +9,6 @@ const overviewList = [
   },
   {
     id: 3,
-    label: 'Top Up your wallet',
-    subLabel: 'Make request to top-up your digital wallet. It`s super easy to begin with!'
-  },
-  {
-    id: 4,
     label: 'Start doing Payments',
     subLabel: 'Make your vendor payment to the desired accounts. Fast right?.'
   }

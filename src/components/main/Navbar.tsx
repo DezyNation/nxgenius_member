@@ -307,7 +307,7 @@ const NAV_ITEMS: Array<NavItem> = [
       // },
       {
         label: "Payouts",
-        subLabel: "Transfer payments pan India",
+        subLabel: "Make Vendor payments securely",
         href: "/auth/login",
       },
       // {
