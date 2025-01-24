@@ -75,7 +75,7 @@ export default function WithSubnavigation() {
             as={"a"}
             href="/"
           >
-            DAINYPAY
+            FINOMA
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

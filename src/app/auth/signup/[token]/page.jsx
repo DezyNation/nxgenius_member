@@ -84,7 +84,7 @@ const SplitWithImage = () => {
           <br />
           <br />
           <Text fontSize={"xs"}>
-            &copy; Copyright {new Date().getFullYear()} - Dainypay Technologies
+            &copy; Copyright {new Date().getFullYear()} - Finoma Technologies
             Pvt. Ltd.
           </Text>
         </Flex>
