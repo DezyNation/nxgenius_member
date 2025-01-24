@@ -19,7 +19,7 @@ export default function Home() {
           borderBottom="1px solid"
           borderColor="gray.300"
         >
-          Why Dainypay?
+          Why Finoma?
         </Heading>
         <Flex
           as="section"

@@ -75,7 +75,7 @@ export default function WithSubnavigation() {
             as={"a"}
             href="/"
           >
-            DAINYPAY
+            FINOMA
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -326,7 +326,7 @@ const NAV_ITEMS: Array<NavItem> = [
       },
       {
         label: "Email Address",
-        subLabel: "support@dainypay.in",
+        subLabel: "support@finoma.in",
       },
     ],
   },

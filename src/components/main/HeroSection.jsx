@@ -66,7 +66,7 @@ const HeroSection = () => {
             fontWeight="400"
             color="gray.500"
           >
-            Dainypay is the one stop solution to all of your Vendor Payment
+            Finoma is the one stop solution to all of your Vendor Payment
             needs. Join us and enjoy amazing benefits!
           </Text>
           <HStack
@@ -76,7 +76,7 @@ const HeroSection = () => {
           >
             <Button
               as={Link}
-              href="mailto:support@dainypay.in"
+              href="mailto:support@finoma.in"
               bgGradient="linear(to-l, #0ea5e9,#2563eb)"
               _hover={{
                 bgGradient: "linear(to-l, #0ea5e9,#2563eb)",
