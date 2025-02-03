@@ -3,11 +3,11 @@ export const TOKEN_MAX_AGE = 60 * 60 * 24 * 30; // 30 Days
 export const CLIENT_BASE_URL =
   process.env.NODE_ENV == "development"
     ? "http://localhost:3000"
-    : "https://finoma.in";
+    : process.env.NEXT_PUBLIC_CLIENT_BASE_URL;
 export const API_BASE_URL =
   process.env.NODE_ENV == "development"
     ? "http://localhost:8000/api"
-    : "https://backend.finoma.in/api";
+    : process.env.NEXT_PUBLIC_API_BASE_URL;
 
 export const STATES = [
   {
