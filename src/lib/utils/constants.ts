@@ -1,5 +1,4 @@
-export const JWT_SECRET =
-  "aphqYCV8lo2rtf2wP9au5KqBeeBKWDzfE8kuA8lLPbpgXUSEAsshg6O6ZW2fT8Fi";
+export const JWT_SECRET = process.env.NEXT_PUBLIC_JWT_SECRET;
 export const TOKEN_MAX_AGE = 60 * 60 * 24 * 30; // 30 Days
 export const CLIENT_BASE_URL =
   process.env.NODE_ENV == "development"

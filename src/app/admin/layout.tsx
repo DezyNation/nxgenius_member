@@ -168,7 +168,7 @@ const AdminSidebarContent = ({ ...props }: BoxProps) => {
           color={useColorModeValue("brand.500", "white")}
           fontWeight="semibold"
         >
-          FINOMA
+          {process.env.NEXT_PUBLIC_BRAND_NAME}
         </Text>
       </Flex>
       <Flex

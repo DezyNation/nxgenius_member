@@ -36,18 +36,18 @@ const page = () => {
             Terms, you may not access the Platform. FOR APPOINTMENT AS
             RETAILER/PARTNER/DISTRIBUTOR & SUPER DISTRIBUTOR These terms and
             conditions (Terms and Conditions) shall apply to and govern the
-            commercial arrangement between FINOMA Technologies Pvt. Ltd. (herein
-            after referred as 'FINOMA') and the Retailer/ Partner /
+            commercial arrangement between {process.env.NEXT_PUBLIC_BRAND_NAME} Technologies Pvt. Ltd. (herein
+            after referred as '{process.env.NEXT_PUBLIC_BRAND_NAME}') and the Retailer/ Partner /
             Distributor/Super Distributor. These Terms and Conditions and any
-            attachments hereto represent the entire agreement between FINOMA and
+            attachments hereto represent the entire agreement between {process.env.NEXT_PUBLIC_BRAND_NAME} and
             the Retailer/ Partner / Distributor/Super Distributor and no changes
             to the same are binding unless they are in writing and intimated by
-            the authorized representative of FINOMA. “FINOMA”is a digital
+            the authorized representative of {process.env.NEXT_PUBLIC_BRAND_NAME}. “{process.env.NEXT_PUBLIC_BRAND_NAME}”is a digital
             financial facilitation service provider, a company incorporated
             under the Companies Act,, 2013 (18 of 2013 and rule 18 of the
             Companies (Incorporation) Rules, 2014) having its registered office
             at Hno 64 Kheriya Patal Sahara Khurd Iglas Aligarh Uttar
-            Pradesh-202124, INDIA (hereinafter referred to as the Company/FINOMA
+            Pradesh-202124, INDIA (hereinafter referred to as the Company/{process.env.NEXT_PUBLIC_BRAND_NAME}
             which expression shall unless repugnant to the context or meaning
             thereof mean and include its successors and permitted assigns).
           </Text>
@@ -66,59 +66,59 @@ const page = () => {
             textAlign="justify"
           >
             1.1 During the Term, the Retailer/ Partner / Distributor/Super
-            Distributor shall render the services (“Services”) of FINOMA, by and
+            Distributor shall render the services (“Services”) of {process.env.NEXT_PUBLIC_BRAND_NAME}, by and
             through such of its officers, employees, agents, representatives and
             affiliates as it shall designate, from time to time. Notwithstanding
-            anything contrary contained in these Terms and Conditions, FINOMA
+            anything contrary contained in these Terms and Conditions, {process.env.NEXT_PUBLIC_BRAND_NAME}
             shall have the right at any time, to modify, alter and amend the
             lists of Services, including the manner, procedure, process in which
             the Retailer/ Partner / Distributor/Super Distributor will be
             required to perform the Services and the Retailer/ Partner /
             Distributor/Super Distributor shall be bound by all such
-            modifications, alterations and amendments made by FINOMA. 1.2 The
+            modifications, alterations and amendments made by {process.env.NEXT_PUBLIC_BRAND_NAME}. 1.2 The
             Retailer/ Partner / Distributor/Super Distributor shall only market,
-            distribute sell or promote such FINOMA Services as are permitted
-            expressly by FINOMA. The Retailer/ Partner / Distributor/Super
+            distribute sell or promote such {process.env.NEXT_PUBLIC_BRAND_NAME} Services as are permitted
+            expressly by {process.env.NEXT_PUBLIC_BRAND_NAME}. The Retailer/ Partner / Distributor/Super
             Distributor shall not automatically have the right to market, sell,
             distribute, or promote any product or service that may be provided
             by other retail outlets, whether in the present or in the future. In
-            the event of any addition to the Services, FINOMA may, at its sole
+            the event of any addition to the Services, {process.env.NEXT_PUBLIC_BRAND_NAME} may, at its sole
             discretion, intimate the Retailer/ Partner / Distributor/Super
             Distributor that the Retailer/ Partner / Distributor/Super
             Distributor is entitled to sell, market, distribute and promote such
-            product or service. FINOMA shall also have the right to direct the
+            product or service. {process.env.NEXT_PUBLIC_BRAND_NAME} shall also have the right to direct the
             Retailer/ Partner / Distributor/Super Distributor to discontinue
-            providing any of the FINOMA Services at the Retail Outlet without
-            assigning any reason whatsoever. 1.3 FINOMA shall specify to the
+            providing any of the {process.env.NEXT_PUBLIC_BRAND_NAME} Services at the Retail Outlet without
+            assigning any reason whatsoever. 1.3 {process.env.NEXT_PUBLIC_BRAND_NAME} shall specify to the
             Retailer/ Partner / Distributor/Super Distributor, the necessary
             infrastructure and equipment including but not limited to computer
             terminals, peripherals attachments, internet and broadband
             connectivity, mobile device and/or any such device with GPRS
-            connectivity, HTML enabled, which is compatible enough to run FINOMA
-            Software/Services etc, for effectively providing the FINOMA
+            connectivity, HTML enabled, which is compatible enough to run {process.env.NEXT_PUBLIC_BRAND_NAME}
+            Software/Services etc, for effectively providing the {process.env.NEXT_PUBLIC_BRAND_NAME}
             Services, which the Retailer/ Partner / Distributor/Super
             Distributor shall acquire at its sole expense. In case of the MPOS
             Application, the Retailer/ Partner / Distributor/Super Distributor
-            shall be entitled to install the FINOMA Software on that particular
+            shall be entitled to install the {process.env.NEXT_PUBLIC_BRAND_NAME} Software on that particular
             mobile device and/or any such other device, which is proposed to be
-            registered with FINOMA for availing FINOMA Services, and no other
+            registered with {process.env.NEXT_PUBLIC_BRAND_NAME} for availing {process.env.NEXT_PUBLIC_BRAND_NAME} Services, and no other
             mobile/device of the Retailer/ Partner / Distributor/Super
             Distributor shall have such Software installed unless registered
             under the terms and conditions of this Agreement. Further, the
             Retailer/ Partner / Distributor/Super Distributor shall prominently
-            display the FINOMA signage, signboards, logos, etc at a prominent
+            display the {process.env.NEXT_PUBLIC_BRAND_NAME} signage, signboards, logos, etc at a prominent
             place in the Retail Outlet, strictly in accordance with the
-            directions issued by FINOMA in this regard. 1.4 Upon satisfactory
+            directions issued by {process.env.NEXT_PUBLIC_BRAND_NAME} in this regard. 1.4 Upon satisfactory
             installation and operation of the necessary equipment and
-            peripherals, FINOMA shall, subject to these Terms and Conditions,
-            install the necessary software and other FINOMA Intellectual
+            peripherals, {process.env.NEXT_PUBLIC_BRAND_NAME} shall, subject to these Terms and Conditions,
+            install the necessary software and other {process.env.NEXT_PUBLIC_BRAND_NAME} Intellectual
             Property to enable the provision of the Services. All Services shall
-            be provided solely through the portal of FINOMA or are recorded
+            be provided solely through the portal of {process.env.NEXT_PUBLIC_BRAND_NAME} or are recorded
             therein and no offline transactions are permitted and/or no such
             fake/false receipts should be issued by the Retailer/ Partner /
             Distributor/Super Distributor for the willful fraud transaction done
             by the Retailer/ Partner / Distributor/Super Distributor which are
-            not transacted through FINOMA Software/portal. However, if any
+            not transacted through {process.env.NEXT_PUBLIC_BRAND_NAME} Software/portal. However, if any
             Retailer/ Partner / Distributor/Super Distributor is found and/or
             discovered doing any such malicious/wrong/willful/fraudulent acts
             and/or offline transactions, it shall be liable and charged for such
@@ -133,7 +133,7 @@ const page = () => {
             Distributor/Super Distributor shall keep the Retailer/ Partner /
             Distributor/Super Distributor Outlet open for business during normal
             business hours, or as permitted by law or such other time period as
-            FINOMA may specify from time to time. 1.7 The Retailer/ Partner /
+            {process.env.NEXT_PUBLIC_BRAND_NAME} may specify from time to time. 1.7 The Retailer/ Partner /
             Distributor/Super Distributor shall ensure that the Retail Outlet is
             utilized for the purpose of rendering the Services in accordance
             with these Terms and Conditions. The Retailer/ Partner /
@@ -144,7 +144,7 @@ const page = () => {
             offensive, derogatory, threatening, harassing, abusive or violent
             content, to be made available in the Retail Outlet or (b) any
             activities that are proscribed under law or reasonably considered to
-            be immoral or against public interest. 1.8 FINOMA may, at its sole
+            be immoral or against public interest. 1.8 {process.env.NEXT_PUBLIC_BRAND_NAME} may, at its sole
             discretion and with or without consideration, provide training
             manuals, technology support, ongoing advice and assistance to the
             Retailer/ Partner / Distributor/Super Distributor and designated
@@ -152,15 +152,15 @@ const page = () => {
             including, provision of brochures, pamphlets, charts, signboards,
             signage and other materials for the purposes of advertisement,
             promotion and marketing the Services. Any materials supplied by
-            FINOMA shall be utilized solely in relation to the provision of
+            {process.env.NEXT_PUBLIC_BRAND_NAME} shall be utilized solely in relation to the provision of
             Services and the Retailer/ Partner / Distributor/Super Distributor
             shall ensure that such materials are not utilized for any other
             purpose. 1.9 The Retailer/ Partner / Distributor/Super Distributor
             shall not encroach/poach upon the areas of operation of other
             neighboring Retailer/ Partner / Distributor/Super Distributors
-            appointed by FINOMA or act in any manner which will prejudice the
+            appointed by {process.env.NEXT_PUBLIC_BRAND_NAME} or act in any manner which will prejudice the
             business prospects of neighboring Retailer/ Partner /
-            Distributor/Super Distributors appointed by FINOMA.
+            Distributor/Super Distributors appointed by {process.env.NEXT_PUBLIC_BRAND_NAME}.
           </Text>
 
           <Heading
@@ -303,52 +303,52 @@ const page = () => {
             with these Terms and Conditions. 3.2 The Retailer/ Partner /
             Distributor/Super Distributor acknowledges that it has read and
             understood these Terms and Conditions at the time of making an
-            application to FINOMA for operation of a retail outlet to provide
+            application to {process.env.NEXT_PUBLIC_BRAND_NAME} for operation of a retail outlet to provide
             the Services (as defined herein) under the name and style of
-            “FINOMA” and that it has had sufficient time to evaluate the
+            “{process.env.NEXT_PUBLIC_BRAND_NAME}” and that it has had sufficient time to evaluate the
             financial requirements, equipment required to conduct the business,
             services applicable/ enable in his area of operation and risks
             associated with the establishment and operation of the retail
             outlet. 3.3 : During the Term and subject to these Terms and
-            Conditions, FINOMA hereby appoints the Retailer/ Partner /
+            Conditions, {process.env.NEXT_PUBLIC_BRAND_NAME} hereby appoints the Retailer/ Partner /
             Distributor/Super Distributor and the Retailer/ Partner /
             Distributor/Super Distributor hereby accepts the appointment as a
-            FINOMA Retailer/ Partner / Distributor/Super Distributor, to
+            {process.env.NEXT_PUBLIC_BRAND_NAME} Retailer/ Partner / Distributor/Super Distributor, to
             establish and operate a retail outlet at such address as specified
             in the Retailer/ Partner / Distributor/Super Distributor application
             form attached herewith for the purpose of marketing, selling and
             providing the Services (“Retail Outlet”). No changes to the address
             as mentioned in the Retailer/ Partner / Distributor/Super
             Distributor Application form shall be permitted, except with the
-            prior written consent from FINOMA whereas such consent shall be
+            prior written consent from {process.env.NEXT_PUBLIC_BRAND_NAME} whereas such consent shall be
             signed by the Authorized Representative of the level of Vice
             President or above. 3.4 The appointment of the Retailer/ Partner /
             Distributor/Super Distributor under these Terms and Conditions shall
-            remain valid up to the termination (“Term”). FINOMA may exercise its
+            remain valid up to the termination (“Term”). {process.env.NEXT_PUBLIC_BRAND_NAME} may exercise its
             right of withdrawal by giving a notice in writing to the Retailer/
             Partner / Distributor/Super Distributor 1 (one) month prior to
             withdrawal unless any breach of this agreement by the Retailer/
             Partner / Distributor/Super Distributor. 3.5 The Retailer/ Partner /
             Distributor/Super Distributor may describe himself as an 'authorized
-            Retailer/ Partner / Distributor/Super Distributor' of FINOMA, but
-            must not hold [itself/himself] out as being entitled to bind FINOMA
+            Retailer/ Partner / Distributor/Super Distributor' of {process.env.NEXT_PUBLIC_BRAND_NAME}, but
+            must not hold [itself/himself] out as being entitled to bind {process.env.NEXT_PUBLIC_BRAND_NAME}
             in any way. The Retailer/ Partner / Distributor/Super Distributor
             shall not make, cause or permit, directly or indirectly, any
             description or projection of itself as a partner or employee or
-            officer or representative of FINOMA. 3.6 FINOMA is in the business
+            officer or representative of {process.env.NEXT_PUBLIC_BRAND_NAME}. 3.6 {process.env.NEXT_PUBLIC_BRAND_NAME} is in the business
             of facilitating/distributing/marketing/providing of
             product(s)/service(s) of various service providers to enable them to
             expand the distribution networks for the services provided by them.
             3.7 The Retailer/ Partner / Distributor/Super Distributor has
-            understood the business model and aware that FINOMA is just a
+            understood the business model and aware that {process.env.NEXT_PUBLIC_BRAND_NAME} is just a
             facilitator and distributor of products and services and does not
-            own such services or products by itself. FINOMA takes reasonable
+            own such services or products by itself. {process.env.NEXT_PUBLIC_BRAND_NAME} takes reasonable
             efforts to make available the services and products, however, shall
             not be liable and responsible for any deficiency of such services
-            and products. FINOMA further also takes reasonable efforts to
+            and products. {process.env.NEXT_PUBLIC_BRAND_NAME} further also takes reasonable efforts to
             provide its best uninterrupted services at best quality; however,
             technological systems are prone to interruption for upgradation,
-            maintenance, break down of either the systems of FINOMA or that of
+            maintenance, break down of either the systems of {process.env.NEXT_PUBLIC_BRAND_NAME} or that of
             the Service Providers’. The Retailer/ Partner / Distributor/Super
             Distributor shall be managing his business considering such
             interruptions.
@@ -370,9 +370,9 @@ const page = () => {
             4.1 Non Refundable Registration Fee: The Retailer/ Partner /
             Distributor/Super Distributor shall deposit such an amount
             (“Registration Fees”) by way of a non-refundable registration fee as
-            per commercial terms defined by FINOMA on or before the Effective
+            per commercial terms defined by {process.env.NEXT_PUBLIC_BRAND_NAME} on or before the Effective
             Date. 4.2 Working Capital: The Retailer/ Partner / Distributor/Super
-            Distributor shall maintain and deposit with FINOMA working capital
+            Distributor shall maintain and deposit with {process.env.NEXT_PUBLIC_BRAND_NAME} working capital
             (“Working Capital”) in a bank designated and intimated to the
             Retailer/ Partner / Distributor/Super Distributor for this purpose
             (“Designated Bank”) which will be an interest free deposit. The
@@ -383,7 +383,7 @@ const page = () => {
             Working Capital is maintained at the aforementioned amounts at all
             times. 4.3 Working Capital Limit: The Retailer/ Partner /
             Distributor/Super Distributor shall be entitled to a credit limit
-            equivalent to the Working Capital balance in the books of FINOMA
+            equivalent to the Working Capital balance in the books of {process.env.NEXT_PUBLIC_BRAND_NAME}
             (“Credit Limit”). The Retailer/ Partner / Distributor/Super
             Distributor may enter into transactions up to the value of the
             existing Credit Limit. In the event the value of the transactions
@@ -393,40 +393,40 @@ const page = () => {
             Retailer/ Partner / Distributor/Super Distributor desires to enter
             into transactions in excess of the Credit Limit, the Retailer/
             Partner / Distributor/Super Distributor shall deposit the amount
-            either with the Distributor or FINOMA as the case may be to increase
-            its Credit Limit accordingly. The Distributor/ FINOMA shall, at
+            either with the Distributor or {process.env.NEXT_PUBLIC_BRAND_NAME} as the case may be to increase
+            its Credit Limit accordingly. The Distributor/ {process.env.NEXT_PUBLIC_BRAND_NAME} shall, at
             their sole discretion, permit enhancement of the Credit Limit. If
             the amount is deposited with the Distributor, the Retailer/ Partner
             / Distributor/Super Distributor need to obtain proper receipt and
-            the limit gets enhanced from the Distributor. FINOMA shall not be
+            the limit gets enhanced from the Distributor. {process.env.NEXT_PUBLIC_BRAND_NAME} shall not be
             responsible for any liabilities in such an event. 4.4 Commission:
             The Retailer/ Partner / Distributor/Super Distributor shall be
             entitled to commission, which shall be adjusted on a daily
             basis/monthly basis/transaction basis, for the provision of the
-            Services at a rate to be intimated by FINOMA to the Retailer/
+            Services at a rate to be intimated by {process.env.NEXT_PUBLIC_BRAND_NAME} to the Retailer/
             Partner / Distributor/Super Distributor from time to time through
             its portal, either by way of credit to the Working Capital or the
             Retailer/ Partner / Distributor/Super Distributor may deduct the
             commission due to it, prior to depositing the proceeds of a
             transaction in the Current Account. The Retailer/ Partner /
             Distributor/Super Distributor shall be regularly updated on the
-            Rates of Commission through the Portal. FINOMA, at its sole
+            Rates of Commission through the Portal. {process.env.NEXT_PUBLIC_BRAND_NAME}, at its sole
             discretion shall decide the sharing of Gross Margin with the
             Retailer/ Partner / Distributor/Super Distributors and its decision
             will be final. It is presumed that the Retailer/ Partner /
             Distributor/Super Distributor has agreed to such commission / margin
             before the transaction. Any dispute in this regards will not be
-            admissible by FINOMA. 4.5 Prices and discounts: All prices, charges,
-            fees and discounts for all FINOMA Services shall be determined, and
-            may from time to time be revised, by FINOMA at its sole discretion.
+            admissible by {process.env.NEXT_PUBLIC_BRAND_NAME}. 4.5 Prices and discounts: All prices, charges,
+            fees and discounts for all {process.env.NEXT_PUBLIC_BRAND_NAME} Services shall be determined, and
+            may from time to time be revised, by {process.env.NEXT_PUBLIC_BRAND_NAME} at its sole discretion.
             The Retailer/ Partner / Distributor/Super Distributor shall not
             collect cash from the customers by offering discounts on the
-            Services which do not have FINOMA's sanction. The Retailer/ Partner
+            Services which do not have {process.env.NEXT_PUBLIC_BRAND_NAME}'s sanction. The Retailer/ Partner
             / Distributor/Super Distributor shall also not provide any
             incentives, subsidies or do any act/ omission or thing, which shall
             have the effect of providing incentives or subsidies on the
             Services. The Retailer/ Partner / Distributor/Super Distributor
-            acknowledge that FINOMA has the right to alter the prices or nullify
+            acknowledge that {process.env.NEXT_PUBLIC_BRAND_NAME} has the right to alter the prices or nullify
             any sales that have been entered in the portal. 4.6 Taxes: All
             current and/or future taxes or similar fees including without
             limitation GST, value added tax, service tax and other local or
@@ -435,26 +435,26 @@ const page = () => {
             the Retailer/ Partner / Distributor/Super Distributor while
             retaining its commission. Payments made to the Retailer/ Partner /
             Distributor/Super Distributor shall be subject to such withholdings
-            as prescribed under applicable law. Subject to the aforesaid, FINOMA
+            as prescribed under applicable law. Subject to the aforesaid, {process.env.NEXT_PUBLIC_BRAND_NAME}
             assumes no responsibility for the tax compliance of the Retailer/
             Partner / Distributor/Super Distributor. 4.7 Costs: All costs and
-            expenses for operation of FINOMA Kiosk including but not limiting to
+            expenses for operation of {process.env.NEXT_PUBLIC_BRAND_NAME} Kiosk including but not limiting to
             electricity, telephone, staff salary, traveling, promotional
             activities and other similar out-of-pocket expenses incurred in the
             performance of the Services shall be borne by the Retailer/ Partner
             / Distributor/Super Distributor. 4.8 Activity/Inactivity charges: A
-            minimum monthly charges plus Taxes may be levied by FINOMA and the
+            minimum monthly charges plus Taxes may be levied by {process.env.NEXT_PUBLIC_BRAND_NAME} and the
             same shall be deducted from the Retailer/ Partner /
             Distributor/Super Distributor’s Working Capital balance. The
             Retailer/ Partner / Distributor/Super Distributor hereby agrees and
             acknowledges to pay such charges as intimated to the Retailer/
             Partner / Distributor/Super Distributor from to time. 4.9 Set off:
-            FINOMA may, deduct sums due from the Retailer/ Partner /
+            {process.env.NEXT_PUBLIC_BRAND_NAME} may, deduct sums due from the Retailer/ Partner /
             Distributor/Super Distributor under these Terms and Conditions from
             any sums due to the Retailer/ Partner / Distributor/Super
             Distributor under the same and the Retailer/ Partner /
             Distributor/Super Distributor hereby consents to such set off being
-            made by FINOMA.
+            made by {process.env.NEXT_PUBLIC_BRAND_NAME}.
           </Text>
 
           <Heading
@@ -486,17 +486,17 @@ const page = () => {
             employee, partner, consultant, and holder of equity or debt
             investment, lender or in any other manner or capacity): (a) market,
             offer and/or perform services similar to that being developed,
-            offered or sold by FINOMA; (b)solicit, induce, encourage or attempt
-            to induce or encourage any employee or consultant of FINOMA to
+            offered or sold by {process.env.NEXT_PUBLIC_BRAND_NAME}; (b)solicit, induce, encourage or attempt
+            to induce or encourage any employee or consultant of {process.env.NEXT_PUBLIC_BRAND_NAME} to
             terminate his or her employment or consulting relationship with
-            FINOMA, or to breach any other obligation to FINOMA; (c) solicit,
+            {process.env.NEXT_PUBLIC_BRAND_NAME}, or to breach any other obligation to {process.env.NEXT_PUBLIC_BRAND_NAME}; (c) solicit,
             interfere with, disrupt, alter or attempt to disrupt or alter the
-            relationship, contractual or otherwise, between FINOMA and any other
+            relationship, contractual or otherwise, between {process.env.NEXT_PUBLIC_BRAND_NAME} and any other
             person including, without limitation, any consultant, contractor,
-            customer, potential customer, or supplier of FINOMA; or (d) engage
+            customer, potential customer, or supplier of {process.env.NEXT_PUBLIC_BRAND_NAME}; or (d) engage
             in or participate in any business conducted under any name that
-            shall be the same as or similar to the name of FINOMA or any trade
-            name used by FINOMA.
+            shall be the same as or similar to the name of {process.env.NEXT_PUBLIC_BRAND_NAME} or any trade
+            name used by {process.env.NEXT_PUBLIC_BRAND_NAME}.
           </Text>
 
           <Heading
@@ -513,34 +513,34 @@ const page = () => {
             textAlign="justify"
           >
             6.1 No license under any patents, copyrights, trademarks or any
-            other intellectual property rights of FINOMA / its affiliates / its
+            other intellectual property rights of {process.env.NEXT_PUBLIC_BRAND_NAME} / its affiliates / its
             Service Provider(s) / third party(ies) is granted to or conferred
             upon to the Retailer/ Partner / Distributor/Super Distributor by
             virtue of being the Retailer/ Partner / Distributor/Super
-            Distributor of FINOMA. The Retailer/ Partner / Distributor/Super
+            Distributor of {process.env.NEXT_PUBLIC_BRAND_NAME}. The Retailer/ Partner / Distributor/Super
             Distributor shall not acquire any interest and right on the
             trademark(s), trade name(s), logo, etc. of other party including
-            FINOMA by virtue of this Agreement and shall not use the logos,
-            trademark of FINOMA/owner of intellectual property on including
+            {process.env.NEXT_PUBLIC_BRAND_NAME} by virtue of this Agreement and shall not use the logos,
+            trademark of {process.env.NEXT_PUBLIC_BRAND_NAME}/owner of intellectual property on including
             interalia the Retailer/ Partner / Distributor/Super Distributor’s
             Rubber stamps, letterheads, Visiting Cards, websites etc. and/or any
             such material in whatsoever manner. 7.2. The Retailer/ Partner /
             Distributor/Super Distributor agrees to protect the logo, trade name
-            and trademark of FINOMA and not use the same, in any unauthorised
+            and trademark of {process.env.NEXT_PUBLIC_BRAND_NAME} and not use the same, in any unauthorised
             manner, whatsoever, including interalia as a tool for acknowledging
             payments accepted by the Retailer/ Partner / Distributor/Super
             Distributor/his representative, thereby creating false impression
             about the authenticity of such acknowledgment / receipt. The
             Retailer/ Partner / Distributor/Super Distributor hereby undertakes
-            to indemnify, defend and hold FINOMA harmless for all loss(es) /
+            to indemnify, defend and hold {process.env.NEXT_PUBLIC_BRAND_NAME} harmless for all loss(es) /
             damage(s) arising due to infringement of this clause. The Retailer/
             Partner / Distributor/Super Distributor is aware of the
             consequences, if at all, the Retailer/ Partner / Distributor/Super
             Distributor and/or his representative are found in unauthorized use
-            of FINOMA logo/ trade name(s) in any manner, then strict action
+            of {process.env.NEXT_PUBLIC_BRAND_NAME} logo/ trade name(s) in any manner, then strict action
             shall be taken against the Retailer/ Partner / Distributor/Super
             Distributor, including permanent deactivation of his Services, but
-            not limited to any other legal action which FINOMA may deem fit and
+            not limited to any other legal action which {process.env.NEXT_PUBLIC_BRAND_NAME} may deem fit and
             proper, under the provisions of law.
           </Text>
 
@@ -563,7 +563,7 @@ const page = () => {
             personal data from unauthorised access and disclosure, and follow
             standards prescribed by applicable law. 8.1 The Retailer/ Partner /
             Distributor/Super Distributor agrees that all information disclosed
-            by FINOMA or which the Retailer/ Partner / Distributor/Super
+            by {process.env.NEXT_PUBLIC_BRAND_NAME} or which the Retailer/ Partner / Distributor/Super
             Distributor gets in the course of negotiating this Agreement is
             confidential in nature and hence cannot be disclosed. Each Party may
             disclose the existence of this Agreement, but agrees that the terms
@@ -579,10 +579,10 @@ const page = () => {
             Retailer/ Partner / Distributor/Super Distributor also agrees that
             on and from the date of this Agreement all information, which the
             Retailer/ Partner / Distributor/Super Distributor may obtain from
-            FINOMA pursuant to this Agreement, shall be kept confidential by the
+            {process.env.NEXT_PUBLIC_BRAND_NAME} pursuant to this Agreement, shall be kept confidential by the
             Retailer/ Partner / Distributor/Super Distributor and shall not be
             disclosed to any third party, save and except with the prior written
-            consent of the FINOMA.
+            consent of the {process.env.NEXT_PUBLIC_BRAND_NAME}.
           </Text>
         </Box>
       </Container>

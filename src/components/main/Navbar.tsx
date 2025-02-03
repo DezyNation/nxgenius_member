@@ -75,7 +75,7 @@ export default function WithSubnavigation() {
             as={"a"}
             href="/"
           >
-            FINOMA
+            {process.env.NEXT_PUBLIC_BRAND_NAME}
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>

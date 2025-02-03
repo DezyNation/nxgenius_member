@@ -53,7 +53,7 @@ const Footer = () => {
         <Image
           w="100px"
           src="/assets/images/layouts/hero_image.png"
-          alt="Finoma"
+          alt="Brand Image"
         />
       </Link>
 

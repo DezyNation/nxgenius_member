@@ -66,7 +66,7 @@ const HeroSection = () => {
             fontWeight="400"
             color="gray.500"
           >
-            Finoma is the one stop solution to all of your Vendor Payment
+            {process.env.NEXT_PUBLIC_BRAND_NAME} is the one stop solution to all of your Vendor Payment
             needs. Join us and enjoy amazing benefits!
           </Text>
           <HStack

@@ -268,7 +268,7 @@ const Login = () => {
           <br />
           <br />
           <Text fontSize={"xs"}>
-            &copy; Copyright {new Date().getFullYear()} - FINOMA
+            &copy; Copyright {new Date().getFullYear()} - {process.env.NEXT_PUBLIC_BRAND_NAME}
           </Text>
         </Flex>
       </Stack>

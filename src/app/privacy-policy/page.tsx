@@ -28,8 +28,8 @@ const page = () => {
             fontSize={{ base: "md", md: "md" }}
             textAlign="justify"
           >
-            FINOMA Technology Pvt. Ltd. built the FINOMA web app as a Commercial
-            web app. This SERVICE is provided by FINOMA Technology Pvt. Ltd. and
+            {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd. built the {process.env.NEXT_PUBLIC_BRAND_NAME} web app as a Commercial
+            web app. This SERVICE is provided by {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd. and
             is intended for use as is. This page is used to inform website
             visitors regarding our policies with the collection, use, and
             disclosure of Personal Information if anyone decided to use our
@@ -39,7 +39,7 @@ const page = () => {
             improving the Service. We will not use or share your information
             with anyone except as described in this Privacy Policy. The terms
             used in this Privacy Policy have the same meanings as in our Terms
-            and Conditions, which is accessible at FINOMA unless otherwise
+            and Conditions, which is accessible at {process.env.NEXT_PUBLIC_BRAND_NAME} unless otherwise
             defined in this Privacy Policy. We may change this Privacy Policy at
             any time by posting the revised Privacy Policy in the "Privacy
             Policy" section of the website. The revised Privacy Policy is
@@ -87,9 +87,9 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            The data controller in respect of our portal is FINOMA, registered
+            The data controller in respect of our portal is {process.env.NEXT_PUBLIC_BRAND_NAME}, registered
             in India. If you have any questions about this Privacy Policy you
-            can contact the data controller by writing to FINOMA, Guwahati,
+            can contact the data controller by writing to {process.env.NEXT_PUBLIC_BRAND_NAME}, Guwahati,
             Hatigaon Puberun Path House No-2, Pincode - 781038, Indiaor sending
             an email to info@1touch.online
           </Text>
@@ -170,8 +170,8 @@ const page = () => {
           >
             We reserve the right to disclose your personal information as
             necessary to: (1) comply with the law or comply with legal process
-            served on FINOMA; (2) protect and defend the rights or property of
-            FINOMA; (3) to ensure compliance with our Terms & Conditions. FINOMA
+            served on {process.env.NEXT_PUBLIC_BRAND_NAME}; (2) protect and defend the rights or property of
+            {process.env.NEXT_PUBLIC_BRAND_NAME}; (3) to ensure compliance with our Terms & Conditions. {process.env.NEXT_PUBLIC_BRAND_NAME}
             co-operates with law enforcement and other third parties to enforce
             laws, intellectual property, and other rights, and we reserve the
             right to report any information related to suspicion of illegal

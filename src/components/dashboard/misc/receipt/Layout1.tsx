@@ -152,7 +152,7 @@ const Layout1 = ({ data, isLayout }: ReceiptLayoutProps) => {
                   fontSize={isLayout ? "2xs" : "md"}
                   fontWeight={"semibold"}
                 >
-                  FINOMA
+                  {process.env.NEXT_PUBLIC_BRAND_NAME}
                 </Text>
               </HStack>
             )}

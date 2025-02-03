@@ -101,7 +101,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <title>FINOMA</title>
+        <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
       </head>
       <body>
         <ChakraProvider
