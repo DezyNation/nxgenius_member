@@ -76,7 +76,7 @@ const Layout2 = ({ data, isLayout }: ReceiptLayoutProps) => {
           w={"full"}
           bgColor={
             data?.status == "success"
-              ? "whatsapp.500"
+              ? "twitter.500"
               : data?.status == "pending"
               ? "orange.500"
               : "red.500"
