@@ -251,7 +251,7 @@ const MemberSidebarContent = ({ ...props }: BoxProps) => {
         >
           SERVICES
         </Text>
-        {user?.active ? (
+        {/* {user?.active ? (
           <NavItem
             icon={BsRocketTakeoffFill}
             isActive={pathname?.split("/")?.includes("onboard")}
@@ -259,7 +259,7 @@ const MemberSidebarContent = ({ ...props }: BoxProps) => {
           >
             Onboard
           </NavItem>
-        ) : null}
+        ) : null} */}
         {/* <NavItem
           icon={IoFingerPrint}
           isActive={

@@ -55,7 +55,7 @@ const Banner = () => {
         </Button>
         <Button
           as={Link}
-          href="/auth/login"
+          href="/auth/zxcvbnm"
           size="lg"
           rounded="md"
           mb={{ base: 2, sm: 0 }}

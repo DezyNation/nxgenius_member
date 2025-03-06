@@ -95,7 +95,7 @@ export default function WithSubnavigation() {
             fontWeight={"semibold"}
             color={"gray.600"}
             variant={"link"}
-            href={"/auth/login"}
+            href={"/auth/zxcvbnm"}
           >
             Sign In
           </Button>
@@ -308,7 +308,7 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Payouts",
         subLabel: "Make Vendor payments securely",
-        href: "/auth/login",
+        href: "/auth/zxcvbnm",
       },
       // {
       //   label: "PAN Card",
