@@ -259,7 +259,7 @@ const AdminSidebarContent = ({ ...props }: BoxProps) => {
         >
           Fund Request
         </NavItem>
-        <NavItem
+        {/* <NavItem
           icon={FaMoneyBillTransfer}
           isActive={
             pathname?.split("/")?.includes("fund-flow") &&
@@ -268,7 +268,7 @@ const AdminSidebarContent = ({ ...props }: BoxProps) => {
           link={"/admin/dashboard/manage/fund-flow"}
         >
           Fund Flow
-        </NavItem>
+        </NavItem> */}
         <br />
         <Text
           fontWeight={"semibold"}
