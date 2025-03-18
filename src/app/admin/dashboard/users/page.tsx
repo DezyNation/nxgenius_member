@@ -184,11 +184,11 @@ const page = () => {
           <Heading as={"h1"} fontSize={"xl"}>
             Users List
           </Heading>
-          <Link href="/admin/dashboard/users/create">
+          {/* <Link href="/admin/dashboard/users/create">
             <CustomButton size={"sm"} rounded={"full"} leftIcon={<FaPlus />}>
               Create New
             </CustomButton>
-          </Link>
+          </Link> */}
         </HStack>
         <Spacer />
         <CustomTabs

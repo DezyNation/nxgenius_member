@@ -119,7 +119,7 @@ const page = () => {
 
   return (
     <>
-      <Stack
+      {/* <Stack
         direction={["column", "row"]}
         alignItems={"center"}
         justifyContent={"space-between"}
@@ -401,7 +401,7 @@ const page = () => {
             </Form>
           )}
         </Formik>
-      </Box>
+      </Box> */}
     </>
   );
 };
