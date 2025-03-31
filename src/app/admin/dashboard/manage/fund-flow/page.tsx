@@ -61,7 +61,7 @@ const page = () => {
 
   return (
     <>
-      {/* <Heading as={"h1"} fontSize={"xl"} mb={4}>
+      <Heading as={"h1"} fontSize={"xl"} mb={4}>
         Fund Flow
       </Heading>
 
@@ -138,7 +138,7 @@ const page = () => {
         formData={formData}
         title={`${formData?.activity_type == "transfer" ? "Credit" : "Debit"} ₹${formData?.amount} ${formData?.activity_type == "transfer" ? "to" : "from"} ${beneficiary?.name}?`}
         description={"Enter your PIN to confirm this transaction"}
-      /> */}
+      />
     </>
   );
 };
