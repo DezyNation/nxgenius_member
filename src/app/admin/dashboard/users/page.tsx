@@ -184,11 +184,16 @@ const page = () => {
           <Heading as={"h1"} fontSize={"xl"}>
             Users List
           </Heading>
-          {/* <Link href="/admin/dashboard/users/create">
-            <CustomButton size={"sm"} rounded={"full"} leftIcon={<FaPlus />}>
-              Create New
-            </CustomButton>
-          </Link> */}
+          
+          {
+          // @ts-ignore
+          process.env.DISABLE_USER_CREATION === true ? null : (
+            <Link href="/admin/dashboard/users/create">
+              <CustomButton size={"sm"} rounded={"full"} leftIcon={<FaPlus />}>
+                Create New
+              </CustomButton>
+            </Link>
+          )}
         </HStack>
         <Spacer />
         <CustomTabs
@@ -208,6 +213,7 @@ const page = () => {
           ]}
           onChange={(value) => {
             ref.current = true;
+            // @ts-ignore
             setRole(value);
           }}
           size={"sm"}
@@ -273,8 +279,8 @@ const page = () => {
           alignItems={"center"}
           justifyContent={["center", "space-between"]}
         >
-          <ExportButtons />
-          <Pagination pages={pages} onClick={(url) => setUrl(url)} />
+          <ExportButtons service="users" fileName="Users" />
+          <Pagination pages={pages} onClick={(url:any) => setUrl(url)} />
         </Stack>
         <br />
         <TableContainer maxH={"lg"} overflowY={"scroll"}>
@@ -531,7 +537,7 @@ const page = () => {
           </Table>
         </TableContainer>
         <br />
-        <Pagination pages={pages} onClick={(url) => setUrl(url)} />
+        <Pagination pages={pages} onClick={(url:any) => setUrl(url)} />
       </Box>
 
       {/* Add Admin Remarks To User */}

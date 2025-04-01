@@ -13,7 +13,7 @@ import { FaFilePdf } from "react-icons/fa";
 import { SiMicrosoftexcel } from "react-icons/si";
 
 interface ExportProps {
-  service: "payouts" | "ledger" | "wallet-transfers" | "fund-transfers" | "fund-requests";
+  service: "payouts" | "ledger" | "wallet-transfers" | "fund-transfers" | "fund-requests" | "users";
   fileName: string;
   query?: object;
   body?: object;
@@ -33,6 +33,7 @@ const ExportButtons = ({ service, query, body, fileName }: ExportProps) => {
           ? Object.keys(query)
               .map(
                 (key) =>
+                  // @ts-ignore
                   encodeURIComponent(key) + "=" + encodeURIComponent(query[key])
               )
               .join("&")
