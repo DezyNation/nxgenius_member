@@ -117,9 +117,16 @@ const page = () => {
     }
   }
 
+  if (
+    process.env.DISABLE_USER_CREATION === "true" ||
+    process.env.DISABLE_USER_CREATION === true
+  ) {
+    return <></>;
+  }
+
   return (
     <>
-      {/* <Stack
+      <Stack
         direction={["column", "row"]}
         alignItems={"center"}
         justifyContent={"space-between"}
@@ -401,7 +408,7 @@ const page = () => {
             </Form>
           )}
         </Formik>
-      </Box> */}
+      </Box>
     </>
   );
 };
