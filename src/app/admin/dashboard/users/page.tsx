@@ -184,14 +184,16 @@ const page = () => {
           <Heading as={"h1"} fontSize={"xl"}>
             Users List
           </Heading>
-          
+
           {
           // @ts-ignore
           process.env.DISABLE_USER_CREATION === true ? null : (
-            <Link href="/admin/dashboard/users/create">
-              <CustomButton size={"sm"} rounded={"full"} leftIcon={<FaPlus />}>
+            <Link
+            // href="/admin/dashboard/users/create">
+            href="#">
+              {/* <CustomButton size={"sm"} rounded={"full"} leftIcon={<FaPlus />}>
                 Create New
-              </CustomButton>
+              </CustomButton> */}
             </Link>
           )}
         </HStack>
