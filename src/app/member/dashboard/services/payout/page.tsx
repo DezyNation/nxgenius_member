@@ -142,7 +142,7 @@ const page = () => {
             ifsc_code: "",
             amount: "",
             provider: provider,
-            mode: "neft",
+            mode: "imps",
           }}
           onSubmit={console.log}
         >
