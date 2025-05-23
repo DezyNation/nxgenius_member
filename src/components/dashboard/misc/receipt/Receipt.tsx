@@ -12,8 +12,7 @@ import React, { FC } from "react";
 import Layout1 from "./Layout1";
 import { ReceiptProps } from "@/lib/commons/types";
 import Layout2 from "./Layout2";
-
-
+import Layout3 from "./Layout3";
 
 interface ReceiptModalProps {
   isOpen: boolean;
@@ -28,7 +27,12 @@ const Receipt: FC<ReceiptModalProps> = ({ isOpen, onClose, data }) => {
         <ModalOverlay />
         <ModalContent bg={"transparent"} boxShadow={"none"}>
           <ModalBody p={0} boxShadow={"md"}>
-            <Layout2 data={data} />
+            <Layout3
+              data={data}
+              onClose={() => {
+                if (onClose) onClose();
+              }}
+            />
           </ModalBody>
           <ModalFooter>
             <HStack w={"full"} justifyContent={"center"}>
