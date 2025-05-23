@@ -70,7 +70,7 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
         w={"full"}
         p={0}
         bgColor={"#FFF"}
-        gap={4}
+        gap={2}
         justifyContent={"space-between"}
       >
         <Box
