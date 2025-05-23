@@ -36,7 +36,7 @@ const ReceiptEntry = ({ k, v, fontSize }: ReceiptEntryProps) => {
           <Text
             textTransform={"capitalize"}
             fontSize={fontSize || "10"}
-            fontWeight={"medium"}
+            fontWeight={"bold"}
             color={'gray.600'}
           >
             {k?.replace(/_/g, " ")}
@@ -49,7 +49,7 @@ const ReceiptEntry = ({ k, v, fontSize }: ReceiptEntryProps) => {
           // border={"0.5px solid"}
           // borderColor={"gray.300"}
         >
-          <Text textTransform={"capitalize"} fontSize={fontSize || "10"} color={'gray.500'}>
+          <Text textTransform={"capitalize"} fontSize={fontSize || "10"} color={'gray.500'} fontWeight={"semibold"}>
             {v}
           </Text>
         </Box>
@@ -74,7 +74,7 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
         justifyContent={"space-between"}
       >
         <Box
-          p={isLayout ? 2 : 4}
+          // p={isLayout ? 2 : 4}
           w={"full"}
           // bgColor={
           //   data?.status == "success"
@@ -126,7 +126,7 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
             fontWeight={"medium"}
             color={"gray.900"}
           >
-            {Number(data?.amount ?? 0)?.toFixed(2)}
+            {Number(data?.amount ?? 0)?.toFixed(0)}
           </Text>
         </VStack>
 
@@ -177,7 +177,7 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
           </VStack>
         )}
 
-<HStack alignItems={'center'} justifyContent={'center'}>
+<HStack alignItems={'center'} justifyContent={'center'} pb={4}>
   <Button size={'sm'} colorScheme={'teal'} onClick={onClose}>Close</Button>
 </HStack>
 
