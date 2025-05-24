@@ -10,7 +10,6 @@ import {
   Button,
 } from "@chakra-ui/react";
 import React, { FC } from "react";
-import '@fontsource/public-sans';
 import { BiSolidError } from "react-icons/bi";
 import { BsFillClockFill, BsFillPatchCheckFill } from "react-icons/bs";
 import { IoCheckmarkDoneSharp, IoWarningOutline } from "react-icons/io5";
