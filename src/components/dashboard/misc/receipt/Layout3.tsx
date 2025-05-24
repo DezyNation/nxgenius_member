@@ -1,7 +1,16 @@
 "use client";
 import { ReceiptProps } from "@/lib/commons/types";
-import { Box, HStack, Icon, Text, TextProps, VStack, Button } from "@chakra-ui/react";
+import {
+  Box,
+  HStack,
+  Icon,
+  Text,
+  TextProps,
+  VStack,
+  Button,
+} from "@chakra-ui/react";
 import React, { FC } from "react";
+import '@fontsource/public-sans';
 import { BiSolidError } from "react-icons/bi";
 import { BsFillClockFill, BsFillPatchCheckFill } from "react-icons/bs";
 import { IoCheckmarkDoneSharp, IoWarningOutline } from "react-icons/io5";
@@ -25,31 +34,36 @@ interface ReceiptEntryProps {
 const ReceiptEntry = ({ k, v, fontSize }: ReceiptEntryProps) => {
   return (
     <>
-      <HStack w={"full"} gap={4}>
+      <HStack w={"full"} gap={4} py={1.5}>
         <Box
           px={2}
-          py={1}
           flex={1}
           // border={"0.5px solid"}
           // borderColor={"gray.300"}
         >
           <Text
+            className={"public-sans"}
             textTransform={"capitalize"}
             fontSize={fontSize || "10"}
-            fontWeight={"bold"}
-            color={'gray.600'}
+            fontWeight={"600"}
+            color={"#697a8d"}
           >
             {k?.replace(/_/g, " ")}
           </Text>
         </Box>
         <Box
           px={2}
-          py={1}
           flex={2}
           // border={"0.5px solid"}
           // borderColor={"gray.300"}
         >
-          <Text textTransform={"capitalize"} fontSize={fontSize || "10"} color={'gray.500'} fontWeight={"semibold"}>
+          <Text
+          className={'public-sans'}
+            textTransform={"capitalize"}
+            fontSize={fontSize || "10"}
+            color={"gray.500"}
+            // fontWeight={"semibold"}
+          >
             {v}
           </Text>
         </Box>
@@ -60,18 +74,18 @@ const ReceiptEntry = ({ k, v, fontSize }: ReceiptEntryProps) => {
 
 const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
   const config = {
-    fontSize: isLayout ? "6" : "10",
+    fontSize: isLayout ? "6" : "9",
   };
 
   return (
     <>
       <VStack
-        minH={isLayout ? "xs" : "lg"}
+        minH={isLayout ? "xs" : "md"}
         w={"full"}
-        p={0}
+        px={0}
         bgColor={"#FFF"}
-        gap={2}
-        justifyContent={"space-between"}
+        gap={4}
+        justifyContent={"flex-start"}
       >
         <Box
           // p={isLayout ? 2 : 4}
@@ -106,10 +120,11 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
             />
           ) : null}
           <Text
-            fontWeight={"semibold"}
+            fontWeight={"bold"}
+            className="public-sans"
             color={
               data?.status == "success"
-                ? "whatsapp.500"
+                ? "#71DD37"
                 : data?.status == "pending"
                 ? "orange.500"
                 : data?.status == "failed"
@@ -117,14 +132,16 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
                 : "gray.700"
             }
             textTransform={"uppercase"}
-            fontSize={isLayout ? "sm" : "md"}
+            fontSize={isLayout ? "sm" : "xs"}
           >
             {data?.status}
           </Text>
           <Text
-            fontSize={isLayout ? "md" : "3xl"}
-            fontWeight={"medium"}
+            className={"public-sans"}
+            fontSize={isLayout ? "40px" : "3xl"}
+            // fontWeight={"600"}
             color={"gray.900"}
+            // pt={4}
           >
             {Number(data?.amount ?? 0)?.toFixed(0)}
           </Text>
@@ -145,7 +162,7 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
 
           <ReceiptEntry
             k="Timestamp"
-            v={new Date(data?.timestamp || new Date()).toLocaleString("en-GB")}
+            v={new Date(data?.timestamp || new Date()).toLocaleString("en-GB").replace(",","")}
             fontSize={config?.fontSize}
           />
           {Object.entries(data?.miscData || {})?.map((entry, i) => (
@@ -177,9 +194,11 @@ const Layout3 = ({ data, isLayout, onClose }: ReceiptLayoutProps) => {
           </VStack>
         )}
 
-<HStack alignItems={'center'} justifyContent={'center'} pb={4}>
-  <Button size={'sm'} colorScheme={'teal'} onClick={onClose}>Close</Button>
-</HStack>
+        <HStack alignItems={"center"} justifyContent={"center"}>
+          <Button size={"sm"} colorScheme={"teal"} onClick={onClose} fontSize={'10'} bgColor={'gray.500'}>
+            Close
+          </Button>
+        </HStack>
 
         {/* <Box
           p={isLayout ? 2 : 4}
