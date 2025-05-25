@@ -27,11 +27,11 @@ const Receipt: FC<ReceiptModalProps> = ({ isOpen, onClose, data }) => {
         <ModalOverlay />
         <ModalContent bg={"transparent"} boxShadow={"none"}>
           <ModalBody p={0} boxShadow={"md"}>
-            <Layout3
+            <Layout2
               data={data}
-              onClose={() => {
-                if (onClose) onClose();
-              }}
+              // onClose={() => {
+              //   if (onClose) onClose();
+              // }}
             />
           </ModalBody>
           <ModalFooter>
