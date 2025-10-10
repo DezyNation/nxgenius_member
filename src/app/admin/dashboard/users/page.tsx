@@ -189,11 +189,11 @@ const page = () => {
           // @ts-ignore
           process.env.DISABLE_USER_CREATION === true ? null : (
             <Link
-            // href="/admin/dashboard/users/create">
+             href="/admin/dashboard/users/create">
             href="#">
-              {/* <CustomButton size={"sm"} rounded={"full"} leftIcon={<FaPlus />}>
+              <CustomButton size={"sm"} rounded={"full"} leftIcon={<FaPlus />}>
                 Create New
-              </CustomButton> */}
+              </CustomButton>
             </Link>
           )}
         </HStack>
