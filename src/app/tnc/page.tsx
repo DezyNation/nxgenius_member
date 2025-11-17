@@ -36,7 +36,7 @@ const page = () => {
             Terms, you may not access the Platform. FOR APPOINTMENT AS
             RETAILER/PARTNER/DISTRIBUTOR & SUPER DISTRIBUTOR These terms and
             conditions (Terms and Conditions) shall apply to and govern the
-            commercial arrangement between {process.env.NEXT_PUBLIC_BRAND_NAME} Technologies Pvt. Ltd. (herein
+            commercial arrangement between {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. (herein
             after referred as '{process.env.NEXT_PUBLIC_BRAND_NAME}') and the Retailer/ Partner /
             Distributor/Super Distributor. These Terms and Conditions and any
             attachments hereto represent the entire agreement between {process.env.NEXT_PUBLIC_BRAND_NAME} and

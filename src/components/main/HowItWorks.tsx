@@ -10,7 +10,7 @@ const overviewList = [
   {
     id: 3,
     label: 'Start doing Payments',
-    subLabel: 'Make your vendor payment to the desired accounts. Fast right?.'
+    subLabel: 'Start distributing salaries and contractor payments to the desired accounts. Fast right?.'
   }
 ];
 

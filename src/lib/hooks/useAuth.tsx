@@ -30,7 +30,7 @@ const useAuth = () => {
       setUser(null);
       Cookies.remove("token");
       setTimeout(() => {
-        window.location.replace("/auth/zxcvbnm");
+        window.location.replace("/auth/login");
       }, 2000);
     }
   };

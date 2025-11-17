@@ -56,8 +56,8 @@ const HeroSection = () => {
             fontWeight="bold"
             textAlign="left"
           >
-            Do Vendor Payments <br />
-            <chakra.span color="teal">more securely</chakra.span>
+            Contractor and Labour payments<br />
+            <chakra.span color="teal">more fast and securely</chakra.span>
           </chakra.h1>
           <Text
             fontSize="1.2rem"
@@ -66,7 +66,7 @@ const HeroSection = () => {
             fontWeight="400"
             color="gray.500"
           >
-            {process.env.NEXT_PUBLIC_BRAND_NAME} is the one stop solution to all of your Vendor Payment
+            {process.env.NEXT_PUBLIC_BRAND_NAME} is the one stop solution to all of your labour (salary, wages, bonuses, etc.) and Contractor Payment
             needs. Join us and enjoy amazing benefits!
           </Text>
           <HStack
@@ -76,7 +76,7 @@ const HeroSection = () => {
           >
             <Button
               as={Link}
-              href="mailto:support@finoma.in"
+              href="mailto:support@fanxohub.com"
               bgGradient="linear(to-l, #0ea5e9,#2563eb)"
               _hover={{
                 bgGradient: "linear(to-l, #0ea5e9,#2563eb)",
@@ -88,7 +88,7 @@ const HeroSection = () => {
             >
               Mail Us
             </Button>
-            <Button as={Link} href="tel:+916397733583" variant={"outline"} boxShadow={"md"}>
+            <Button as={Link} href="tel:+919897318306" variant={"outline"} boxShadow={"md"}>
               Contact Us
             </Button>
           </HStack>
@@ -100,7 +100,7 @@ const HeroSection = () => {
             h="100%"
             minW={{ base: "auto", md: "30rem" }}
             objectFit="cover"
-            src={`https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&q=80&
+            src={`https://images.unsplash.com/photo-1635424709845-3a85ad5e1f5e?ixlib=rb-1.2.1&q=80&
             fm=jpg&crop=entropy&cs=tinysrgb&auto=format&fit=crop&w=334&q=80`}
             rounded="md"
             fallback={<Skeleton />}
