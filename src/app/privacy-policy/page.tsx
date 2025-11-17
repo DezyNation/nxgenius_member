@@ -28,7 +28,7 @@ const page = () => {
             fontSize={{ base: "md", md: "md" }}
             textAlign="justify"
           >
-            {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd. built the {process.env.NEXT_PUBLIC_BRAND_NAME} web app as a Commercial
+            {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. built the {process.env.NEXT_PUBLIC_BRAND_NAME} web app as a Commercial
             web app. This SERVICE is provided by {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd. and
             is intended for use as is. This page is used to inform website
             visitors regarding our policies with the collection, use, and
