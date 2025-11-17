@@ -326,7 +326,7 @@ const NAV_ITEMS: Array<NavItem> = [
       },
       {
         label: "Email Address",
-        subLabel: "support@fanxohub.com",
+        subLabel: "support@fanzohub.in",
       },
     ],
   },

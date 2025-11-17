@@ -76,7 +76,7 @@ const HeroSection = () => {
           >
             <Button
               as={Link}
-              href="mailto:support@fanxohub.com"
+              href="mailto:support@fanzohub.in"
               bgGradient="linear(to-l, #0ea5e9,#2563eb)"
               _hover={{
                 bgGradient: "linear(to-l, #0ea5e9,#2563eb)",
