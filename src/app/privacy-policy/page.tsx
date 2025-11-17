@@ -28,8 +28,8 @@ const page = () => {
             fontSize={{ base: "md", md: "md" }}
             textAlign="justify"
           >
-            {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd. built the {process.env.NEXT_PUBLIC_BRAND_NAME} platform as a Commercial
-            salary processing and payment system for labors and contractors. This SERVICE is provided by {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd. and
+            {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. built the {process.env.NEXT_PUBLIC_BRAND_NAME} platform as a Commercial
+            salary processing and payment system for labors and contractors. This SERVICE is provided by {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. and
             is intended for use by registered companies to process payments for their workforce. This page is used to inform
             companies, labors, and contractors regarding our policies with the collection, use, and
             disclosure of Personal Information if anyone decided to use our

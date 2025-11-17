@@ -33,18 +33,18 @@ const page = () => {
             agreement between us ("Platform" or "us" or "we" or "our") and the User
             ("you" or "your"). Please read these Terms carefully before
             accessing or using the Platform. If you do not agree to the
-            Terms, you may not access or use the Platform. {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd. 
-            (hereinafter referred as '{process.env.NEXT_PUBLIC_BRAND_NAME}') operates a digital salary processing and 
-            payment facilitation platform for labors and contractors. These Terms and Conditions govern 
-            the use of our services by Companies, Labors, and Contractors. These Terms and Conditions 
-            represent the entire agreement between {process.env.NEXT_PUBLIC_BRAND_NAME} and all users of the platform, 
-            and no changes to the same are binding unless they are in writing and communicated by 
-            the authorized representative of {process.env.NEXT_PUBLIC_BRAND_NAME}. {process.env.NEXT_PUBLIC_BRAND_NAME} is a salary processing 
-            and payment facilitation service provider, a company incorporated under the Companies Act, 
-            2013 (18 of 2013 and rule 18 of the Companies (Incorporation) Rules, 2014) having its 
-            registered office at Guwahati, Hatigaon Puberun Path House No-2, Pincode - 781038, 
-            INDIA (hereinafter referred to as the Company/{process.env.NEXT_PUBLIC_BRAND_NAME} which expression shall 
-            unless repugnant to the context or meaning thereof mean and include its successors 
+            Terms, you may not access or use the Platform. {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd.
+            (hereinafter referred as '{process.env.NEXT_PUBLIC_BRAND_NAME}') operates a digital salary processing and
+            payment facilitation platform for labors and contractors. These Terms and Conditions govern
+            the use of our services by Companies, Labors, and Contractors. These Terms and Conditions
+            represent the entire agreement between {process.env.NEXT_PUBLIC_BRAND_NAME} and all users of the platform,
+            and no changes to the same are binding unless they are in writing and communicated by
+            the authorized representative of {process.env.NEXT_PUBLIC_BRAND_NAME}. {process.env.NEXT_PUBLIC_BRAND_NAME} is a salary processing
+            and payment facilitation service provider, a company incorporated under the Companies Act,
+            2013 (18 of 2013 and rule 18 of the Companies (Incorporation) Rules, 2014) having its
+            registered office at Guwahati, Hatigaon Puberun Path House No-2, Pincode - 781038,
+            INDIA (hereinafter referred to as the Company/{process.env.NEXT_PUBLIC_BRAND_NAME} which expression shall
+            unless repugnant to the context or meaning thereof mean and include its successors
             and permitted assigns).
           </Text>
 
@@ -61,23 +61,23 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            In these Terms of Use, unless the contrary intention appears and/or the context 
-            otherwise requires, the following terms shall have the meanings assigned to them: 
-            "Platform" means the web application and mobile application operated by {process.env.NEXT_PUBLIC_BRAND_NAME} 
-            for salary processing and payment facilitation; "Company" or "Registered Company" means 
-            any business entity, organization, or employer that registers on the Platform to process 
-            salaries and payments for their workforce; "Labor" means any worker, employee, or daily 
-            wage earner whose salary is processed through the Platform; "Contractor" means any 
-            independent contractor, freelancer, or service provider whose payments are processed 
-            through the Platform; "Services" means all salary processing, payment facilitation, 
-            record maintenance, compliance management, and related services provided through the 
-            Platform; "User" means any Company, Labor, or Contractor using the Platform; "Payment 
-            Information" includes bank account details, UPI IDs, payment preferences, and any other 
-            financial information provided for salary disbursement; "Applicable Law" includes all 
-            applicable Indian statutes, enactments, acts, laws, ordinances, rules, regulations, 
-            notifications, guidelines, and orders including but not limited to the Payment and 
-            Settlement Systems Act 2007, Income Tax Act 1961, Labor Laws, EPF & MP Act 1952, ESI 
-            Act 1948, Payment of Wages Act 1936, and any other relevant legislation; "INR" or "Rs" 
+            In these Terms of Use, unless the contrary intention appears and/or the context
+            otherwise requires, the following terms shall have the meanings assigned to them:
+            "Platform" means the web application and mobile application operated by {process.env.NEXT_PUBLIC_BRAND_NAME}
+            for salary processing and payment facilitation; "Company" or "Registered Company" means
+            any business entity, organization, or employer that registers on the Platform to process
+            salaries and payments for their workforce; "Labor" means any worker, employee, or daily
+            wage earner whose salary is processed through the Platform; "Contractor" means any
+            independent contractor, freelancer, or service provider whose payments are processed
+            through the Platform; "Services" means all salary processing, payment facilitation,
+            record maintenance, compliance management, and related services provided through the
+            Platform; "User" means any Company, Labor, or Contractor using the Platform; "Payment
+            Information" includes bank account details, UPI IDs, payment preferences, and any other
+            financial information provided for salary disbursement; "Applicable Law" includes all
+            applicable Indian statutes, enactments, acts, laws, ordinances, rules, regulations,
+            notifications, guidelines, and orders including but not limited to the Payment and
+            Settlement Systems Act 2007, Income Tax Act 1961, Labor Laws, EPF & MP Act 1952, ESI
+            Act 1948, Payment of Wages Act 1936, and any other relevant legislation; "INR" or "Rs"
             means Indian Rupees, the lawful currency of the Republic of India.
           </Text>
 
@@ -94,19 +94,19 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            2.1. Companies must register on the Platform by providing accurate business information 
-            including business name, registration number, GST details (if applicable), registered 
-            address, authorized signatory details, and valid contact information. Companies are 
-            responsible for maintaining the confidentiality of their account credentials and for all 
-            activities under their account. 2.2. Labors and Contractors may be registered on the 
-            Platform either by themselves or by the Company they are associated with. Registration 
-            requires providing accurate personal information including full name, contact details, 
-            identification documents (Aadhaar, PAN, etc.), bank account details or UPI ID, and 
-            employment/contract details. 2.3. All Users must be at least 18 years of age to use the 
-            Platform. By registering, you represent and warrant that all information provided is 
-            accurate, current, and complete. 2.4. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to verify 
-            all information provided and may request additional documentation for KYC (Know Your 
-            Customer) compliance. We may suspend or terminate accounts that provide false, incomplete, 
+            2.1. Companies must register on the Platform by providing accurate business information
+            including business name, registration number, GST details (if applicable), registered
+            address, authorized signatory details, and valid contact information. Companies are
+            responsible for maintaining the confidentiality of their account credentials and for all
+            activities under their account. 2.2. Labors and Contractors may be registered on the
+            Platform either by themselves or by the Company they are associated with. Registration
+            requires providing accurate personal information including full name, contact details,
+            identification documents (Aadhaar, PAN, etc.), bank account details or UPI ID, and
+            employment/contract details. 2.3. All Users must be at least 18 years of age to use the
+            Platform. By registering, you represent and warrant that all information provided is
+            accurate, current, and complete. 2.4. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to verify
+            all information provided and may request additional documentation for KYC (Know Your
+            Customer) compliance. We may suspend or terminate accounts that provide false, incomplete,
             or misleading information.
           </Text>
 
@@ -123,16 +123,16 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            3.1. {process.env.NEXT_PUBLIC_BRAND_NAME} provides a platform for Companies to process and disburse salaries 
-            to Labors and Contractors. The platform facilitates digital payment transactions, maintains 
-            payment records, generates payment receipts, and helps in compliance management. 3.2. 
-            Companies can use the Platform to: (a) Register and manage their workforce (Labors and 
-            Contractors); (b) Process salary and payment transactions; (c) Track payment history and 
-            generate reports; (d) Maintain compliance records; (e) Download payment receipts and 
-            statements. 3.3. Labors and Contractors can use the Platform to: (a) View their payment 
-            history; (b) Download payment receipts; (c) Update their payment information; (d) Track 
-            salary credits and pending payments. 3.4. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to modify, 
-            add, or remove features and services at any time with or without prior notice. We may 
+            3.1. {process.env.NEXT_PUBLIC_BRAND_NAME} provides a platform for Companies to process and disburse salaries
+            to Labors and Contractors. The platform facilitates digital payment transactions, maintains
+            payment records, generates payment receipts, and helps in compliance management. 3.2.
+            Companies can use the Platform to: (a) Register and manage their workforce (Labors and
+            Contractors); (b) Process salary and payment transactions; (c) Track payment history and
+            generate reports; (d) Maintain compliance records; (e) Download payment receipts and
+            statements. 3.3. Labors and Contractors can use the Platform to: (a) View their payment
+            history; (b) Download payment receipts; (c) Update their payment information; (d) Track
+            salary credits and pending payments. 3.4. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to modify,
+            add, or remove features and services at any time with or without prior notice. We may
             also impose limits on certain features or restrict access to parts of the Platform.
           </Text>
 
@@ -149,19 +149,19 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            4.1. All salary payments processed through the Platform must be legitimate payments owed 
-            by Companies to their Labors or Contractors for work performed or services rendered. 
-            4.2. Companies must ensure they have sufficient funds in their account/wallet before 
-            initiating salary payments. {process.env.NEXT_PUBLIC_BRAND_NAME} is not responsible for failed transactions 
-            due to insufficient funds. 4.3. Payment processing times may vary depending on the payment 
-            method, banking hours, and the recipient's bank. While we strive to process payments 
-            promptly, {process.env.NEXT_PUBLIC_BRAND_NAME} does not guarantee immediate credit to the beneficiary's 
-            account. 4.4. Companies are responsible for ensuring the accuracy of payment details 
-            including beneficiary name, account number, IFSC code, or UPI ID. {process.env.NEXT_PUBLIC_BRAND_NAME} is not 
-            liable for payments made to incorrect accounts due to wrong information provided by the 
-            Company. 4.5. All transactions are subject to verification and may be held or reversed 
-            if suspected of being fraudulent or in violation of these Terms. 4.6. Transaction fees 
-            and charges, if applicable, will be clearly communicated to Companies before processing 
+            4.1. All salary payments processed through the Platform must be legitimate payments owed
+            by Companies to their Labors or Contractors for work performed or services rendered.
+            4.2. Companies must ensure they have sufficient funds in their account/wallet before
+            initiating salary payments. {process.env.NEXT_PUBLIC_BRAND_NAME} is not responsible for failed transactions
+            due to insufficient funds. 4.3. Payment processing times may vary depending on the payment
+            method, banking hours, and the recipient's bank. While we strive to process payments
+            promptly, {process.env.NEXT_PUBLIC_BRAND_NAME} does not guarantee immediate credit to the beneficiary's
+            account. 4.4. Companies are responsible for ensuring the accuracy of payment details
+            including beneficiary name, account number, IFSC code, or UPI ID. {process.env.NEXT_PUBLIC_BRAND_NAME} is not
+            liable for payments made to incorrect accounts due to wrong information provided by the
+            Company. 4.5. All transactions are subject to verification and may be held or reversed
+            if suspected of being fraudulent or in violation of these Terms. 4.6. Transaction fees
+            and charges, if applicable, will be clearly communicated to Companies before processing
             payments. These charges are non-refundable.
           </Text>
 
@@ -178,19 +178,19 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            5.1. Companies using the Platform agree to: (a) Comply with all applicable labor laws, 
-            tax regulations, and statutory requirements; (b) Pay accurate salaries as per employment 
-            contracts or agreements with Labors and Contractors; (c) Provide accurate information 
-            about all Labors and Contractors registered under their account; (d) Maintain proper 
-            employment records and documentation; (e) Deduct and remit applicable taxes (TDS, 
-            professional tax, etc.) as required by law; (f) Ensure timely payment of salaries; 
-            (g) Not use the Platform for any illegal, fraudulent, or unauthorized purposes. 5.2. 
-            Companies are solely responsible for their relationship with Labors and Contractors, 
-            including employment terms, work conditions, and dispute resolution. {process.env.NEXT_PUBLIC_BRAND_NAME} is 
-            merely a payment facilitation platform and is not a party to any employment or contractor 
-            agreements. 5.3. Companies must notify {process.env.NEXT_PUBLIC_BRAND_NAME} immediately of any unauthorized 
-            access to their account or any security breach. 5.4. Companies are responsible for 
-            maintaining the confidentiality of their account login credentials and shall be liable 
+            5.1. Companies using the Platform agree to: (a) Comply with all applicable labor laws,
+            tax regulations, and statutory requirements; (b) Pay accurate salaries as per employment
+            contracts or agreements with Labors and Contractors; (c) Provide accurate information
+            about all Labors and Contractors registered under their account; (d) Maintain proper
+            employment records and documentation; (e) Deduct and remit applicable taxes (TDS,
+            professional tax, etc.) as required by law; (f) Ensure timely payment of salaries;
+            (g) Not use the Platform for any illegal, fraudulent, or unauthorized purposes. 5.2.
+            Companies are solely responsible for their relationship with Labors and Contractors,
+            including employment terms, work conditions, and dispute resolution. {process.env.NEXT_PUBLIC_BRAND_NAME} is
+            merely a payment facilitation platform and is not a party to any employment or contractor
+            agreements. 5.3. Companies must notify {process.env.NEXT_PUBLIC_BRAND_NAME} immediately of any unauthorized
+            access to their account or any security breach. 5.4. Companies are responsible for
+            maintaining the confidentiality of their account login credentials and shall be liable
             for all activities conducted through their account.
           </Text>
 
@@ -207,14 +207,14 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            6.1. Labors and Contractors agree to: (a) Provide accurate personal and payment 
-            information; (b) Keep their payment details updated; (c) Notify {process.env.NEXT_PUBLIC_BRAND_NAME} of any 
-            discrepancies in salary payments; (d) Maintain the security of their account credentials; 
-            (e) Not share their account access with unauthorized persons. 6.2. Labors and Contractors 
-            acknowledge that {process.env.NEXT_PUBLIC_BRAND_NAME} is only a payment facilitation platform and any disputes 
-            regarding salary amounts, employment terms, or work conditions must be resolved directly 
-            with the Company. 6.3. It is the responsibility of Labors and Contractors to ensure 
-            their bank account or UPI details are correct and active. {process.env.NEXT_PUBLIC_BRAND_NAME} is not liable 
+            6.1. Labors and Contractors agree to: (a) Provide accurate personal and payment
+            information; (b) Keep their payment details updated; (c) Notify {process.env.NEXT_PUBLIC_BRAND_NAME} of any
+            discrepancies in salary payments; (d) Maintain the security of their account credentials;
+            (e) Not share their account access with unauthorized persons. 6.2. Labors and Contractors
+            acknowledge that {process.env.NEXT_PUBLIC_BRAND_NAME} is only a payment facilitation platform and any disputes
+            regarding salary amounts, employment terms, or work conditions must be resolved directly
+            with the Company. 6.3. It is the responsibility of Labors and Contractors to ensure
+            their bank account or UPI details are correct and active. {process.env.NEXT_PUBLIC_BRAND_NAME} is not liable
             for failed transactions due to incorrect or inactive payment details.
           </Text>
 
@@ -231,16 +231,16 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            7.1. {process.env.NEXT_PUBLIC_BRAND_NAME} collects, stores, and processes personal information including names, 
-            contact details, identification documents, bank account information, employment details, 
-            and salary information. This data is used solely for providing the Services and complying 
-            with legal requirements. 7.2. All data is stored on secure servers with appropriate 
-            encryption and security measures. We implement industry-standard security protocols to 
-            protect sensitive financial and personal information. 7.3. {process.env.NEXT_PUBLIC_BRAND_NAME} will not share 
-            user data with third parties except: (a) With payment gateways and financial institutions 
-            necessary for processing transactions; (b) When required by law or regulatory authorities; 
-            (c) To prevent fraud or investigate illegal activities; (d) With user consent. 7.4. 
-            Users can access, update, or request deletion of their personal data subject to legal 
+            7.1. {process.env.NEXT_PUBLIC_BRAND_NAME} collects, stores, and processes personal information including names,
+            contact details, identification documents, bank account information, employment details,
+            and salary information. This data is used solely for providing the Services and complying
+            with legal requirements. 7.2. All data is stored on secure servers with appropriate
+            encryption and security measures. We implement industry-standard security protocols to
+            protect sensitive financial and personal information. 7.3. {process.env.NEXT_PUBLIC_BRAND_NAME} will not share
+            user data with third parties except: (a) With payment gateways and financial institutions
+            necessary for processing transactions; (b) When required by law or regulatory authorities;
+            (c) To prevent fraud or investigate illegal activities; (d) With user consent. 7.4.
+            Users can access, update, or request deletion of their personal data subject to legal
             and regulatory retention requirements. For more details, please refer to our Privacy Policy.
           </Text>
 
@@ -257,12 +257,12 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            8.1. {process.env.NEXT_PUBLIC_BRAND_NAME} may charge fees for using the Platform and processing transactions. 
-            All applicable fees will be clearly communicated to Companies before they are charged. 
-            8.2. Fee structure may include: (a) Platform subscription fees; (b) Transaction processing 
-            fees; (c) Service charges for specific features. 8.3. All fees are non-refundable unless 
-            otherwise specified. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to modify the fee structure with 
-            prior notice. 8.4. Applicable taxes (GST, etc.) will be charged over and above the fees 
+            8.1. {process.env.NEXT_PUBLIC_BRAND_NAME} may charge fees for using the Platform and processing transactions.
+            All applicable fees will be clearly communicated to Companies before they are charged.
+            8.2. Fee structure may include: (a) Platform subscription fees; (b) Transaction processing
+            fees; (c) Service charges for specific features. 8.3. All fees are non-refundable unless
+            otherwise specified. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to modify the fee structure with
+            prior notice. 8.4. Applicable taxes (GST, etc.) will be charged over and above the fees
             as per prevailing law.
           </Text>
 
@@ -279,15 +279,15 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            9.1. Companies using the Platform must comply with all applicable laws including labor 
-            laws, minimum wage laws, payment of wages regulations, provident fund regulations, ESI 
-            regulations, tax laws, and any other relevant legislation. 9.2. Companies are responsible 
-            for maintaining statutory registers, making required statutory payments (PF, ESI, etc.), 
-            filing returns, and complying with all legal requirements related to their workforce. 
-            9.3. {process.env.NEXT_PUBLIC_BRAND_NAME} may report transactions to tax authorities and regulatory bodies as 
-            required by law. Companies must ensure all transactions are properly documented and 
-            reported. 9.4. The Platform may be used only for legitimate salary payments and not for 
-            money laundering, tax evasion, or any other illegal activities. Any suspicious activity 
+            9.1. Companies using the Platform must comply with all applicable laws including labor
+            laws, minimum wage laws, payment of wages regulations, provident fund regulations, ESI
+            regulations, tax laws, and any other relevant legislation. 9.2. Companies are responsible
+            for maintaining statutory registers, making required statutory payments (PF, ESI, etc.),
+            filing returns, and complying with all legal requirements related to their workforce.
+            9.3. {process.env.NEXT_PUBLIC_BRAND_NAME} may report transactions to tax authorities and regulatory bodies as
+            required by law. Companies must ensure all transactions are properly documented and
+            reported. 9.4. The Platform may be used only for legitimate salary payments and not for
+            money laundering, tax evasion, or any other illegal activities. Any suspicious activity
             will be reported to appropriate authorities.
           </Text>
 
@@ -304,15 +304,15 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            10.1. Users are strictly prohibited from: (a) Using the Platform for any illegal or 
-            unauthorized purpose; (b) Processing fraudulent or fictitious payments; (c) Providing 
-            false or misleading information; (d) Attempting to gain unauthorized access to the 
-            Platform or other users' accounts; (e) Interfering with or disrupting the Platform's 
-            operation; (f) Using the Platform to violate any laws or regulations; (g) Creating 
-            multiple accounts for fraudulent purposes; (h) Reverse engineering, decompiling, or 
-            attempting to extract source code from the Platform; (i) Using automated systems or bots 
-            to access the Platform. 10.2. Violation of these prohibitions may result in immediate 
-            account suspension or termination, and {process.env.NEXT_PUBLIC_BRAND_NAME} may report such activities to law 
+            10.1. Users are strictly prohibited from: (a) Using the Platform for any illegal or
+            unauthorized purpose; (b) Processing fraudulent or fictitious payments; (c) Providing
+            false or misleading information; (d) Attempting to gain unauthorized access to the
+            Platform or other users' accounts; (e) Interfering with or disrupting the Platform's
+            operation; (f) Using the Platform to violate any laws or regulations; (g) Creating
+            multiple accounts for fraudulent purposes; (h) Reverse engineering, decompiling, or
+            attempting to extract source code from the Platform; (i) Using automated systems or bots
+            to access the Platform. 10.2. Violation of these prohibitions may result in immediate
+            account suspension or termination, and {process.env.NEXT_PUBLIC_BRAND_NAME} may report such activities to law
             enforcement authorities.
           </Text>
 
@@ -329,12 +329,12 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            11.1. Any disputes regarding salary amounts, employment terms, or work-related matters 
-            must be resolved directly between the Company and the Labor/Contractor. {process.env.NEXT_PUBLIC_BRAND_NAME} is 
-            not responsible for mediating or resolving such disputes. 11.2. For technical issues, 
-            payment failures, or Platform-related grievances, users may contact our support team at 
-            info@1touch.online. We will make reasonable efforts to resolve genuine grievances within 
-            15 working days. 11.3. Users can escalate unresolved grievances to our grievance redressal 
+            11.1. Any disputes regarding salary amounts, employment terms, or work-related matters
+            must be resolved directly between the Company and the Labor/Contractor. {process.env.NEXT_PUBLIC_BRAND_NAME} is
+            not responsible for mediating or resolving such disputes. 11.2. For technical issues,
+            payment failures, or Platform-related grievances, users may contact our support team at
+            info@1touch.online. We will make reasonable efforts to resolve genuine grievances within
+            15 working days. 11.3. Users can escalate unresolved grievances to our grievance redressal
             officer whose contact details are available on the Platform.
           </Text>
 
@@ -351,15 +351,15 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            12.1. {process.env.NEXT_PUBLIC_BRAND_NAME} provides the Platform on an "as is" and "as available" basis. We do 
-            not warrant that the Platform will be uninterrupted, error-free, or completely secure. 
-            12.2. {process.env.NEXT_PUBLIC_BRAND_NAME} shall not be liable for: (a) Any indirect, incidental, special, or 
-            consequential damages; (b) Loss of profits, revenue, or data; (c) Delays or failures in 
-            payment processing due to technical issues, bank delays, or force majeure events; (d) 
-            Disputes between Companies and their Labors/Contractors; (e) Incorrect payments made due 
-            to wrong information provided by users; (f) Unauthorized access to user accounts due to 
-            user negligence in maintaining account security. 12.3. Our maximum liability for any 
-            claims arising out of the use of the Platform shall be limited to the fees paid by the 
+            12.1. {process.env.NEXT_PUBLIC_BRAND_NAME} provides the Platform on an "as is" and "as available" basis. We do
+            not warrant that the Platform will be uninterrupted, error-free, or completely secure.
+            12.2. {process.env.NEXT_PUBLIC_BRAND_NAME} shall not be liable for: (a) Any indirect, incidental, special, or
+            consequential damages; (b) Loss of profits, revenue, or data; (c) Delays or failures in
+            payment processing due to technical issues, bank delays, or force majeure events; (d)
+            Disputes between Companies and their Labors/Contractors; (e) Incorrect payments made due
+            to wrong information provided by users; (f) Unauthorized access to user accounts due to
+            user negligence in maintaining account security. 12.3. Our maximum liability for any
+            claims arising out of the use of the Platform shall be limited to the fees paid by the
             user to {process.env.NEXT_PUBLIC_BRAND_NAME} in the preceding three months.
           </Text>
 
@@ -376,11 +376,11 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            13.1. Users agree to indemnify, defend, and hold harmless {process.env.NEXT_PUBLIC_BRAND_NAME}, its directors, 
-            officers, employees, and agents from any claims, losses, damages, liabilities, costs, and 
-            expenses (including legal fees) arising from: (a) Violation of these Terms and Conditions; 
-            (b) Violation of any applicable laws or regulations; (c) Infringement of any third-party 
-            rights; (d) Unauthorized or improper use of the Platform; (e) Any disputes between 
+            13.1. Users agree to indemnify, defend, and hold harmless {process.env.NEXT_PUBLIC_BRAND_NAME}, its directors,
+            officers, employees, and agents from any claims, losses, damages, liabilities, costs, and
+            expenses (including legal fees) arising from: (a) Violation of these Terms and Conditions;
+            (b) Violation of any applicable laws or regulations; (c) Infringement of any third-party
+            rights; (d) Unauthorized or improper use of the Platform; (e) Any disputes between
             Companies and their Labors/Contractors.
           </Text>
 
@@ -397,14 +397,14 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            14.1. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to suspend or terminate any user account at any 
-            time without prior notice if: (a) The user violates these Terms and Conditions; (b) The 
-            account is used for fraudulent or illegal activities; (c) False or misleading information 
-            is provided; (d) The user engages in activities that harm the Platform or other users; 
-            (e) Required by law or regulatory authorities. 14.2. Users may also terminate their 
-            account by providing written notice to {process.env.NEXT_PUBLIC_BRAND_NAME}. Upon termination, users remain 
-            liable for all outstanding obligations and fees. 14.3. Upon account termination, access 
-            to the Platform will be revoked, but transaction history and records may be retained as 
+            14.1. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to suspend or terminate any user account at any
+            time without prior notice if: (a) The user violates these Terms and Conditions; (b) The
+            account is used for fraudulent or illegal activities; (c) False or misleading information
+            is provided; (d) The user engages in activities that harm the Platform or other users;
+            (e) Required by law or regulatory authorities. 14.2. Users may also terminate their
+            account by providing written notice to {process.env.NEXT_PUBLIC_BRAND_NAME}. Upon termination, users remain
+            liable for all outstanding obligations and fees. 14.3. Upon account termination, access
+            to the Platform will be revoked, but transaction history and records may be retained as
             required by law or for audit purposes.
           </Text>
 
@@ -421,13 +421,13 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            15.1. All intellectual property rights in the Platform including software, design, 
-            content, trademarks, logos, and related materials are owned by {process.env.NEXT_PUBLIC_BRAND_NAME} or its 
-            licensors. Users are granted a limited, non-exclusive, non-transferable license to use 
-            the Platform solely for its intended purpose. 15.2. Users may not copy, modify, 
-            distribute, sell, or lease any part of the Platform or its content without prior written 
-            permission from {process.env.NEXT_PUBLIC_BRAND_NAME}. 15.3. Any feedback, suggestions, or ideas provided by 
-            users regarding the Platform may be used by {process.env.NEXT_PUBLIC_BRAND_NAME} without any obligation or 
+            15.1. All intellectual property rights in the Platform including software, design,
+            content, trademarks, logos, and related materials are owned by {process.env.NEXT_PUBLIC_BRAND_NAME} or its
+            licensors. Users are granted a limited, non-exclusive, non-transferable license to use
+            the Platform solely for its intended purpose. 15.2. Users may not copy, modify,
+            distribute, sell, or lease any part of the Platform or its content without prior written
+            permission from {process.env.NEXT_PUBLIC_BRAND_NAME}. 15.3. Any feedback, suggestions, or ideas provided by
+            users regarding the Platform may be used by {process.env.NEXT_PUBLIC_BRAND_NAME} without any obligation or
             compensation.
           </Text>
 
@@ -444,11 +444,11 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            16.1. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to modify these Terms and Conditions at any time. 
-            Updated Terms will be posted on the Platform with the effective date. 16.2. Continued 
-            use of the Platform after modifications constitutes acceptance of the updated Terms. 
-            Users who do not agree with the modifications should discontinue using the Platform. 
-            16.3. For material changes, we will make reasonable efforts to notify users through 
+            16.1. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to modify these Terms and Conditions at any time.
+            Updated Terms will be posted on the Platform with the effective date. 16.2. Continued
+            use of the Platform after modifications constitutes acceptance of the updated Terms.
+            Users who do not agree with the modifications should discontinue using the Platform.
+            16.3. For material changes, we will make reasonable efforts to notify users through
             email or Platform notifications.
           </Text>
 
@@ -465,10 +465,10 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            17.1. These Terms and Conditions shall be governed by and construed in accordance with 
-            the laws of India. 17.2. Any disputes arising out of or relating to these Terms or the 
-            use of the Platform shall be subject to the exclusive jurisdiction of the courts in 
-            Guwahati, Assam, India. 17.3. Users agree to submit to the personal jurisdiction of 
+            17.1. These Terms and Conditions shall be governed by and construed in accordance with
+            the laws of India. 17.2. Any disputes arising out of or relating to these Terms or the
+            use of the Platform shall be subject to the exclusive jurisdiction of the courts in
+            Guwahati, Assam, India. 17.3. Users agree to submit to the personal jurisdiction of
             such courts and waive any objections to jurisdiction or venue.
           </Text>
 
@@ -485,14 +485,14 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            18.1. If any provision of these Terms is found to be invalid or unenforceable, the 
-            remaining provisions shall continue in full force and effect. 18.2. Failure by {process.env.NEXT_PUBLIC_BRAND_NAME} 
-            to enforce any right or provision of these Terms shall not constitute a waiver of such 
-            right or provision. 18.3. These Terms constitute the entire agreement between {process.env.NEXT_PUBLIC_BRAND_NAME} 
-            and users regarding the Platform and supersede all prior agreements and understandings. 
-            18.4. Users may not assign or transfer their rights or obligations under these Terms 
-            without prior written consent from {process.env.NEXT_PUBLIC_BRAND_NAME}. 18.5. All notices and communications 
-            shall be sent to the contact details provided during registration or to the addresses 
+            18.1. If any provision of these Terms is found to be invalid or unenforceable, the
+            remaining provisions shall continue in full force and effect. 18.2. Failure by {process.env.NEXT_PUBLIC_BRAND_NAME}
+            to enforce any right or provision of these Terms shall not constitute a waiver of such
+            right or provision. 18.3. These Terms constitute the entire agreement between {process.env.NEXT_PUBLIC_BRAND_NAME}
+            and users regarding the Platform and supersede all prior agreements and understandings.
+            18.4. Users may not assign or transfer their rights or obligations under these Terms
+            without prior written consent from {process.env.NEXT_PUBLIC_BRAND_NAME}. 18.5. All notices and communications
+            shall be sent to the contact details provided during registration or to the addresses
             specified on the Platform.
           </Text>
 
@@ -509,10 +509,10 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            For any questions, concerns, or grievances regarding these Terms and Conditions or the 
-            Platform, please contact us at: {process.env.NEXT_PUBLIC_BRAND_NAME} Technology Pvt. Ltd., Guwahati, 
-            Hatigaon Puberun Path House No-2, Pincode - 781038, India. Email: info@1touch.online. 
-            By using the Platform, you acknowledge that you have read, understood, and agree to be 
+            For any questions, concerns, or grievances regarding these Terms and Conditions or the
+            Platform, please contact us at: {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd., Guwahati,
+            Hatigaon Puberun Path House No-2, Pincode - 781038, India. Email: info@1touch.online.
+            By using the Platform, you acknowledge that you have read, understood, and agree to be
             bound by these Terms and Conditions.
           </Text>
         </Box>
