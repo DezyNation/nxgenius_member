@@ -42,7 +42,7 @@ const page = () => {
             the authorized representative of {process.env.NEXT_PUBLIC_BRAND_NAME}. {process.env.NEXT_PUBLIC_BRAND_NAME} is a salary processing
             and payment facilitation service provider, a company incorporated under the Companies Act,
             2013 (18 of 2013 and rule 18 of the Companies (Incorporation) Rules, 2014) having its
-            registered office at Guwahati, Hatigaon Puberun Path House No-2, Pincode - 781038,
+            registered office at D-29, Sector 3, Noida, Gautam Buddha Nagar 201301,
             INDIA (hereinafter referred to as the Company/{process.env.NEXT_PUBLIC_BRAND_NAME} which expression shall
             unless repugnant to the context or meaning thereof mean and include its successors
             and permitted assigns).
@@ -468,7 +468,7 @@ const page = () => {
             17.1. These Terms and Conditions shall be governed by and construed in accordance with
             the laws of India. 17.2. Any disputes arising out of or relating to these Terms or the
             use of the Platform shall be subject to the exclusive jurisdiction of the courts in
-            Guwahati, Assam, India. 17.3. Users agree to submit to the personal jurisdiction of
+            Uttar Pradesh, India. 17.3. Users agree to submit to the personal jurisdiction of
             such courts and waive any objections to jurisdiction or venue.
           </Text>
 
@@ -510,8 +510,7 @@ const page = () => {
             textAlign="justify"
           >
             For any questions, concerns, or grievances regarding these Terms and Conditions or the
-            Platform, please contact us at: {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd., Guwahati,
-            Hatigaon Puberun Path House No-2, Pincode - 781038, India. Email: info@1touch.online.
+            Platform, please contact us at: {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd., D-29, Sector 3, Noida, Gautam Buddha Nagar 201301, India. Email: info@1touch.online.
             By using the Platform, you acknowledge that you have read, understood, and agree to be
             bound by these Terms and Conditions.
           </Text>

@@ -92,9 +92,8 @@ const page = () => {
             including but not limited to names, contact details, bank account information, identification documents,
             employment details, and salary information. All data is stored securely and used solely for the purpose
             of salary processing and payment facilitation. If you have any questions about this Privacy Policy you
-            can contact the data controller by writing to {process.env.NEXT_PUBLIC_BRAND_NAME}, Guwahati,
-            Hatigaon Puberun Path House No-2, Pincode - 781038, India or sending
-            an email to info@1touch.online
+            can contact the data controller by writing to {process.env.NEXT_PUBLIC_BRAND_NAME}, D-29, Sector 3, Noida, Gautam Buddha Nagar 201301, India or sending
+            an email to info@fanzohub.in
           </Text>
 
           <Heading
