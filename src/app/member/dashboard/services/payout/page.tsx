@@ -29,25 +29,24 @@ const page = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [formData, setFormData] = useState<any>(null);
-  const [provider, setProvider] = useState<string | number | boolean>(
-    "flipzik"
-  );
+  const [provider, setProvider] = useState<string | number | boolean>("");
   const [availableProviders, setAvailableProviders] = useState<any>([]);
 
   const paymentModes = [
-    {
-      type: "imps",
-      eko_code: "5",
-    },
-    {
-      type: "neft",
-      eko_code: "4",
-    },
-    {
-      type: "rtgs",
-      eko_code: "13",
-    },
+    { type: "imps", eko_code: "5" },
+    { type: "neft", eko_code: "4" },
+    { type: "rtgs", eko_code: "13" },
   ];
+
+  // Derive tabList dynamically from availableProviders
+  const tabList = availableProviders
+    ?.filter((item: any) => item?.name === "payout" && item?.status == true)
+    .map((item: any) => ({
+      id: item.provider,
+      label: item.provider,
+      isDisabled: !item?.status,
+    }))
+    .sort((a: any, b: any) => a.label.localeCompare(b.label)) ?? [];
 
   useEffect(() => {
     if (ref.current) {
@@ -55,22 +54,30 @@ const page = () => {
       const data = JSON.parse(localStorage.getItem("services"));
       if (data) {
         setAvailableProviders(data);
+
+        // Get latest active payout provider (assuming data is ordered by creation,
+        // or sort by a date field if available e.g. item?.createdAt)
+        const payoutProviders = data.filter(
+          (item: any) => item?.name === "payout" && item?.status
+        );
+        const latestProvider = payoutProviders[payoutProviders.length - 1];
+        if (latestProvider) {
+          setProvider(latestProvider.provider);
+        }
       }
     }
   }, []);
 
   function handleFormSubmit(values: any) {
-    if (values?.account_number != values?.account_number_confirmation) {
-      Toast({
-        description: "Account numbers don't match",
-      });
+    if (values?.account_number !== values?.account_number_confirmation) {
+      Toast({ description: "Account numbers don't match" });
       return;
     }
     setFormData({
       ...values,
-      provider: provider,
+      provider,
       service_id: availableProviders?.find(
-        (item: any) => item?.provider == provider && item?.name == "payout"
+        (item: any) => item?.provider === provider && item?.name === "payout"
       )?.id,
     });
     onOpen();
@@ -87,51 +94,12 @@ const page = () => {
           Payout
         </Heading>
 
-        {/* <CustomTabs
+        {/* Replace the entire hardcoded CustomTabs with this */}
+        <CustomTabs
           defaultValue={provider}
-          tabList={[
-            {
-              id: "eko",
-              label: "eko",
-              isDisabled: !availableProviders?.find(
-                (item: any) => item?.provider == "eko" && item?.name == "payout"
-              )?.status,
-            },
-            {
-              id: "razorpay",
-              label: "razorpay",
-              isDisabled: !availableProviders?.find(
-                (item: any) =>
-                  item?.provider == "razorpay" && item?.name == "payout"
-              )?.status,
-            },
-            {
-              id: "waayupay",
-              label: "waayupay",
-              isDisabled: !availableProviders?.find(
-                (item: any) =>
-                  item?.provider == "waayupay" && item?.name == "payout"
-              )?.status,
-            },
-            {
-              id: "paydeer",
-              label: "paydeer",
-              isDisabled: !availableProviders?.find(
-                (item: any) =>
-                  item?.provider == "paydeer" && item?.name == "payout"
-              )?.status,
-            },
-            {
-              id: "safexpay",
-              label: "safexpay",
-              isDisabled: !availableProviders?.find(
-                (item: any) =>
-                  item?.provider == "safexpay" && item?.name == "payout"
-              )?.status,
-            },
-          ]}
+          tabList={tabList}
           onChange={(value) => setProvider(value)}
-        /> */}
+        />
       </Stack>
       <Box mb={8} p={6} bgColor={"#FFF"} boxShadow={"base"} rounded={4}>
         <Formik
