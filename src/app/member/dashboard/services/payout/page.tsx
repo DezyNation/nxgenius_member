@@ -111,6 +111,7 @@ const page = () => {
             amount: "",
             provider: provider,
             mode: "imps",
+            phone_number: ""
           }}
           onSubmit={console.log}
         >
@@ -164,6 +165,15 @@ const page = () => {
                     placeholder=" "
                   />
                   <FormLabel>IFSC</FormLabel>
+                </FormControl>
+                <FormControl maxW={["full", "xs"]} variant={"floating"}>
+                  <Input
+                    name="phone_number"
+                    onChange={handleChange}
+                    value={values?.phone_number}
+                    placeholder=" "
+                  />
+                  <FormLabel>Phone Number</FormLabel>
                 </FormControl>
                 <FormControl maxW={["full", "xs"]} variant={"floating"}>
                   <NumberInput min={50}>
