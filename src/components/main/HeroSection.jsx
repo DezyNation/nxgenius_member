@@ -88,7 +88,7 @@ const HeroSection = () => {
             >
               Mail Us
             </Button>
-            <Button as={Link} href="tel:+919897318306" variant={"outline"} boxShadow={"md"}>
+            <Button as={Link} href="tel:+919528119127" variant={"outline"} boxShadow={"md"}>
               Contact Us
             </Button>
           </HStack>

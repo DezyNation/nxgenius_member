@@ -322,7 +322,7 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: "Phone Number",
-        subLabel: "+91 98973 18306",
+        subLabel: "+91 98973 19127",
       },
       {
         label: "Email Address",
