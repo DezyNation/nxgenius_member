@@ -1,32 +1,53 @@
-import { chakra, Container, Stack, HStack, VStack, Flex, Text, Image, Box } from '@chakra-ui/react';
-
+import {
+  chakra,
+  Container,
+  Stack,
+  HStack,
+  VStack,
+  Flex,
+  Text,
+  Image,
+  Box,
+} from "@chakra-ui/react";
 const overviewList = [
-  { id: 1, label: 'Login once', subLabel: 'Securely login on Portal using your credentials' },
+  {
+    id: 1,
+    label: "Requirement Analysis",
+    subLabel:
+      "Define role requirements, competency frameworks, and hiring objectives aligned with business goals.",
+  },
   {
     id: 2,
-    label: 'Do KYC',
-    subLabel: 'Go through the KYC process for secure transactions'
+    label: "Talent Sourcing & Screening",
+    subLabel:
+      "Leverage multi-channel sourcing, passive candidate outreach, and structured evaluation pipelines to identify high-quality talent.",
   },
   {
     id: 3,
-    label: 'Start doing Payments',
-    subLabel: 'Start distributing salaries and contractor payments to the desired accounts. Fast right?.'
-  }
+    label: "Candidate Delivery & Onboarding",
+    subLabel:
+      "Deliver pre-vetted candidates with detailed assessment reports and assist in seamless onboarding processes.",
+  },
 ];
 
 const OverviewSection = () => {
   return (
     <Container maxW="6xl" py={10}>
       <chakra.h2 fontSize="4xl" fontWeight="bold" textAlign="center" mb={2}>
-        How it works?
+        Our Talent Acquisition Process
       </chakra.h2>
       <Stack
-        direction={{ base: 'column', md: 'row' }}
+        direction={{ base: "column", md: "row" }}
         spacing={{ base: 0, md: 3 }}
         justifyContent="center"
         alignItems="center"
       >
-        <VStack spacing={4} alignItems="flex-start" mb={{ base: 5, md: 0 }} maxW="md">
+        <VStack
+          spacing={4}
+          alignItems="flex-start"
+          mb={{ base: 5, md: 0 }}
+          maxW="md"
+        >
           {overviewList.map((data) => (
             <Box key={data.id}>
               <HStack spacing={2}>
@@ -52,7 +73,7 @@ const OverviewSection = () => {
           ))}
         </VStack>
         <Image
-          boxSize={{ base: 'auto', md: 'lg' }}
+          boxSize={{ base: "auto", md: "lg" }}
           objectFit="contain"
           src="/assets/images/layouts/project_screen.png"
           rounded="lg"

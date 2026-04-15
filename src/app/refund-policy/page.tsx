@@ -28,9 +28,20 @@ const page = () => {
             fontSize={{ base: "md", md: "md" }}
             textAlign="justify"
           >
-            By accessing and using products/services of {process.env.NEXT_PUBLIC_BRAND_NAME} Private Limited
-            (henceforth referred to as “{process.env.NEXT_PUBLIC_BRAND_NAME}”), you accept and agree to the
-            terms, conditions and rules without limitation and or qualification.{" "}
+            This Refund Policy applies to payroll processing, payment facilitation, and HR sourcing services
+            provided by {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd.
+
+            All transactions initiated through the platform are final and non-reversible once processed.
+
+            {process.env.NEXT_PUBLIC_BRAND_NAME} shall not be responsible for:
+            (a) Incorrect transfers due to wrong beneficiary details;
+            (b) Payments made in error by users;
+            (c) Disputes regarding salaries or compensation.
+
+            Service fees charged for platform usage, payroll processing, or subscriptions are non-refundable.
+
+            Users acknowledge that {process.env.NEXT_PUBLIC_BRAND_NAME} acts only as an intermediary facilitating
+            transactions and does not hold liability for user errors or third-party failures.
             <br />
             <br />
             We reserve the right to modify the terms at any time without giving

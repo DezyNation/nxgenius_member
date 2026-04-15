@@ -28,24 +28,17 @@ const page = () => {
             fontSize={{ base: "md", md: "md" }}
             textAlign="justify"
           >
-            By accessing this platform/application, you are agreeing to be bound
-            by these Terms and Conditions ("Terms") in a legally binding
-            agreement between us ("Platform" or "us" or "we" or "our") and the User
-            ("you" or "your"). Please read these Terms carefully before
-            accessing or using the Platform. If you do not agree to the
-            Terms, you may not access or use the Platform. {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd.
-            (hereinafter referred as '{process.env.NEXT_PUBLIC_BRAND_NAME}') operates a digital salary processing and
-            payment facilitation platform for labors and contractors. These Terms and Conditions govern
-            the use of our services by Companies, Labors, and Contractors. These Terms and Conditions
-            represent the entire agreement between {process.env.NEXT_PUBLIC_BRAND_NAME} and all users of the platform,
-            and no changes to the same are binding unless they are in writing and communicated by
-            the authorized representative of {process.env.NEXT_PUBLIC_BRAND_NAME}. {process.env.NEXT_PUBLIC_BRAND_NAME} is a salary processing
-            and payment facilitation service provider, a company incorporated under the Companies Act,
-            2013 (18 of 2013 and rule 18 of the Companies (Incorporation) Rules, 2014) having its
-            registered office at D-29, Sector 3, Noida, Gautam Buddha Nagar 201301,
-            INDIA (hereinafter referred to as the Company/{process.env.NEXT_PUBLIC_BRAND_NAME} which expression shall
-            unless repugnant to the context or meaning thereof mean and include its successors
-            and permitted assigns).
+            {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. (hereinafter referred to as "{process.env.NEXT_PUBLIC_BRAND_NAME}")
+            operates a technology-driven platform providing HR sourcing, workforce management, and payroll processing services.
+
+            The platform enables businesses to source talent, manage workforce data, and process salary and contractor payments
+            through integrated systems. By accessing or using the platform, you agree to be bound by these Terms.
+
+            {process.env.NEXT_PUBLIC_BRAND_NAME} acts as a facilitator of payroll processing and payment execution and does not
+            act as an employer, contractor, or beneficiary in any employment relationship between companies and their workforce.
+
+            The company is incorporated under the Companies Act, 2013, with its registered office at D-29, Sector 3,
+            Noida, Gautam Buddha Nagar, Uttar Pradesh – 201301, India.
           </Text>
 
           <Heading
@@ -123,17 +116,20 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            3.1. {process.env.NEXT_PUBLIC_BRAND_NAME} provides a platform for Companies to process and disburse salaries
-            to Labors and Contractors. The platform facilitates digital payment transactions, maintains
-            payment records, generates payment receipts, and helps in compliance management. 3.2.
-            Companies can use the Platform to: (a) Register and manage their workforce (Labors and
-            Contractors); (b) Process salary and payment transactions; (c) Track payment history and
-            generate reports; (d) Maintain compliance records; (e) Download payment receipts and
-            statements. 3.3. Labors and Contractors can use the Platform to: (a) View their payment
-            history; (b) Download payment receipts; (c) Update their payment information; (d) Track
-            salary credits and pending payments. 3.4. {process.env.NEXT_PUBLIC_BRAND_NAME} reserves the right to modify,
-            add, or remove features and services at any time with or without prior notice. We may
-            also impose limits on certain features or restrict access to parts of the Platform.
+            3.1. {process.env.NEXT_PUBLIC_BRAND_NAME} provides integrated services including:
+            (a) Talent sourcing and recruitment support;
+            (b) Workforce data management;
+            (c) Payroll processing and salary disbursement;
+            (d) Contractor payment facilitation;
+            (e) Reporting and compliance support.
+
+            3.2. The platform enables companies to:
+            (a) Manage employee and contractor records;
+            (b) Initiate and process salary payments;
+            (c) Track transaction history and generate reports.
+
+            3.3. {process.env.NEXT_PUBLIC_BRAND_NAME} acts solely as a technology and payment facilitation platform and
+            does not assume responsibility for employment terms, compensation agreements, or disputes.
           </Text>
 
           <Heading
@@ -149,20 +145,22 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            4.1. All salary payments processed through the Platform must be legitimate payments owed
-            by Companies to their Labors or Contractors for work performed or services rendered.
-            4.2. Companies must ensure they have sufficient funds in their account/wallet before
-            initiating salary payments. {process.env.NEXT_PUBLIC_BRAND_NAME} is not responsible for failed transactions
-            due to insufficient funds. 4.3. Payment processing times may vary depending on the payment
-            method, banking hours, and the recipient's bank. While we strive to process payments
-            promptly, {process.env.NEXT_PUBLIC_BRAND_NAME} does not guarantee immediate credit to the beneficiary's
-            account. 4.4. Companies are responsible for ensuring the accuracy of payment details
-            including beneficiary name, account number, IFSC code, or UPI ID. {process.env.NEXT_PUBLIC_BRAND_NAME} is not
-            liable for payments made to incorrect accounts due to wrong information provided by the
-            Company. 4.5. All transactions are subject to verification and may be held or reversed
-            if suspected of being fraudulent or in violation of these Terms. 4.6. Transaction fees
-            and charges, if applicable, will be clearly communicated to Companies before processing
-            payments. These charges are non-refundable.
+            4.1. The platform facilitates salary and contractor payments on behalf of registered companies.
+
+            4.2. Companies are solely responsible for:
+            (a) Accuracy of beneficiary details;
+            (b) Availability of sufficient funds;
+            (c) Compliance with applicable labor and tax laws.
+
+            4.3. {process.env.NEXT_PUBLIC_BRAND_NAME} processes transactions through authorized banking and payment partners
+            and does not hold funds as a banking entity.
+
+            4.4. Once a payment is successfully initiated and processed, it is considered final and irrevocable.
+
+            4.5. {process.env.NEXT_PUBLIC_BRAND_NAME} shall not be liable for:
+            (a) Incorrect transfers due to wrong details;
+            (b) Delays caused by banking systems;
+            (c) Disputes between companies and employees/contractors.
           </Text>
 
           <Heading

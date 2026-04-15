@@ -1,20 +1,27 @@
-import { Container, Box, Heading, Text, Flex, useColorModeValue } from '@chakra-ui/react';
+import {
+  Container,
+  Box,
+  Heading,
+  Text,
+  Flex,
+  useColorModeValue,
+} from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <Container maxW={'5xl'} py={8} px={{ base: 5, md: 10 }}>
+    <Container maxW={"5xl"} py={8} px={{ base: 5, md: 10 }}>
       <Box
         maxW="64rem"
         marginX="auto"
-        py={{ base: '3rem', md: '4rem' }}
-        px={{ base: '1rem', md: '0' }}
+        py={{ base: "3rem", md: "4rem" }}
+        px={{ base: "1rem", md: "0" }}
       >
         <Heading
           as="h3"
           fontSize="1.5rem"
           fontWeight="bold"
           textAlign="left"
-          mb={{ base: '4', md: '2' }}
+          mb={{ base: "4", md: "2" }}
           pb={4}
           borderBottom="1px solid"
           borderColor="gray.300"
@@ -25,8 +32,8 @@ export default function Home() {
           as="section"
           alignItems="start"
           justifyContent="between"
-          flexDirection={{ base: 'column', md: 'row' }}
-          my={{ base: '1.5rem', md: '2.5rem' }}
+          flexDirection={{ base: "column", md: "row" }}
+          my={{ base: "1.5rem", md: "2.5rem" }}
           borderBottom="1px solid"
           borderColor="gray.300"
           pb={8}
@@ -35,16 +42,16 @@ export default function Home() {
             return (
               <Box
                 key={feature.id}
-                w={{ base: '100%', md: 1 / 3 }}
-                px={{ md: '0.5rem' }}
-                mb={{ base: '6', md: '0' }}
+                w={{ base: "100%", md: 1 / 3 }}
+                px={{ md: "0.5rem" }}
+                mb={{ base: "6", md: "0" }}
               >
                 {feature.icon}
                 <Text textAlign="left" fontWeight="700" mt={3} mb={1}>
                   {feature.title}
                 </Text>
                 <Text
-                  color={useColorModeValue('gray.700', 'gray.400')}
+                  color={useColorModeValue("gray.700", "gray.400")}
                   fontSize="0.875rem"
                   fontWeight="300"
                   textAlign="left"
@@ -65,12 +72,11 @@ export default function Home() {
 export const featuresList = [
   {
     id: 1,
-    title: '24/7 customer support',
-    desc: `Day or night, we’re here for you. Talk to our support team from anywhere in the world,
-    any hour of day.`,
+    title: "Advanced Talent Sourcing",
+    desc: `We utilize data-driven sourcing strategies, talent mapping, and multi-channel acquisition frameworks to identify top-tier candidates across industries.`,
     icon: (
       <svg
-        style={{ width: '2rem', height: '2rem' }}
+        style={{ width: "2rem", height: "2rem" }}
         viewBox="0 0 24 24"
         fill="#60B6B5"
         fillOpacity="0"
@@ -87,15 +93,15 @@ export const featuresList = [
           strokeLinejoin="round"
         ></path>
       </svg>
-    )
+    ),
   },
   {
     id: 2,
-    title: 'Secure',
-    desc: `To make online payments simple,seamless & secure we practice best and standard security measures.`,
+    title: 'Structured Screening & Assessment',
+    desc: `Our multi-layer evaluation process includes technical assessments, behavioral interviews, and cultural fit analysis to ensure precise candidate-role alignment.`,
     icon: (
       <svg
-        style={{ width: '2rem', height: '2rem' }}
+        style={{ width: "2rem", height: "2rem" }}
         viewBox="0 0 24 24"
         role="presentation"
         aria-hidden="true"
@@ -107,15 +113,15 @@ export const featuresList = [
           fillRule="evenodd"
         ></path>
       </svg>
-    )
+    ),
   },
   {
     id: 3,
-    title: 'Best service',
-    desc: `We make sure that our clients are getting served best in class software services.`,
+    title: 'Scalable Hiring Infrastructure',
+    desc: `Designed for growth, our systems support high-volume hiring while maintaining quality, reducing time-to-hire, and optimizing recruitment efficiency.`,
     icon: (
       <svg
-        style={{ width: '2rem', height: '2rem' }}
+        style={{ width: "2rem", height: "2rem" }}
         viewBox="0 0 24 24"
         role="presentation"
         aria-hidden="true"
@@ -127,6 +133,6 @@ export const featuresList = [
           fillRule="evenodd"
         ></path>
       </svg>
-    )
-  }
+    ),
+  },
 ];

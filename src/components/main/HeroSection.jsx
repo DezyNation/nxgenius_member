@@ -56,8 +56,11 @@ const HeroSection = () => {
             fontWeight="bold"
             textAlign="left"
           >
-            Contractor and Labour payments<br />
-            <chakra.span color="teal">more fast and securely</chakra.span>
+            Strategic Talent Sourcing
+            <br />
+            <chakra.span color="teal">
+              for High-Performance Organizations
+            </chakra.span>
           </chakra.h1>
           <Text
             fontSize="1.2rem"
@@ -66,8 +69,10 @@ const HeroSection = () => {
             fontWeight="400"
             color="gray.500"
           >
-            {process.env.NEXT_PUBLIC_BRAND_NAME} is the one stop solution to all of your labour (salary, wages, bonuses, etc.) and Contractor Payment
-            needs. Join us and enjoy amazing benefits!
+            At {process.env.NEXT_PUBLIC_BRAND_NAME} We enable enterprises to build
+            scalable, high-quality workforces through data-driven sourcing,
+            advanced talent pipelines, and precision-driven recruitment
+            methodologies.
           </Text>
           <HStack
             spacing={{ base: 0, sm: 2, md: 4 }}
@@ -88,7 +93,12 @@ const HeroSection = () => {
             >
               Mail Us
             </Button>
-            <Button as={Link} href="tel:+919528119127" variant={"outline"} boxShadow={"md"}>
+            <Button
+              as={Link}
+              href="tel:+919528119127"
+              variant={"outline"}
+              boxShadow={"md"}
+            >
               Contact Us
             </Button>
           </HStack>

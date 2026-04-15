@@ -28,27 +28,15 @@ const page = () => {
             fontSize={{ base: "md", md: "md" }}
             textAlign="justify"
           >
-            {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. built the {process.env.NEXT_PUBLIC_BRAND_NAME} platform as a Commercial
-            salary processing and payment system for labors and contractors. This SERVICE is provided by {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. and
-            is intended for use by registered companies to process payments for their workforce. This page is used to inform
-            companies, labors, and contractors regarding our policies with the collection, use, and
-            disclosure of Personal Information if anyone decided to use our
-            Service. If you choose to use our Service, then you agree to the
-            collection and use of information in relation to this policy. The
-            Personal Information that we collect is used for providing and
-            improving the Service, processing salary payments, maintaining compliance records, and facilitating seamless payment transactions. We will not use or share your information
-            with anyone except as described in this Privacy Policy or as required by law. The terms
-            used in this Privacy Policy have the same meanings as in our Terms
-            and Conditions, which is accessible at {process.env.NEXT_PUBLIC_BRAND_NAME} unless otherwise
-            defined in this Privacy Policy. We may change this Privacy Policy at
-            any time by posting the revised Privacy Policy in the "Privacy
-            Policy" section of the website. The revised Privacy Policy is
-            effective immediately when posted on the website. It is the
-            responsibility of each user to review the website and the Privacy
-            Policy periodically to know about any revisions to this Policy. Your
-            continued use of the platform will be considered as your
-            acknowledgment and acceptance of the terms of the revised Privacy
-            Policy.
+            {process.env.NEXT_PUBLIC_BRAND_NAME} Pvt. Ltd. operates an HR sourcing and payroll processing platform.
+            This Privacy Policy explains how we collect, use, and protect personal and financial information.
+
+            We collect data including names, contact details, employment information, identification documents,
+            bank account details, and salary information for the purpose of talent sourcing, payroll processing,
+            and compliance.
+
+            By using the platform, you consent to such data processing in accordance with Indian laws including
+            the Information Technology Act, 2000.
           </Text>
 
           <Heading
@@ -132,12 +120,11 @@ const page = () => {
             fontSize={{ base: "md", md: "lg" }}
             textAlign="justify"
           >
-            For salary disbursements and payment processing, bank account details, UPI information,
-            and other payment credentials provided by labors and contractors will be securely transmitted
-            to authorized payment gateways and financial institutions. Companies registering on our platform
-            must provide valid business registration details and authorized signatory information. All financial
-            transactions are encrypted and processed through secure, PCI-DSS compliant payment channels. We do not
-            store complete bank account or card details on our servers.
+            For payroll processing, users may provide bank account details, UPI information, and other financial data.
+            This information is securely transmitted to authorized banking and payment partners.
+
+            {process.env.NEXT_PUBLIC_BRAND_NAME} does not store sensitive financial credentials such as full card details.
+            All transactions are processed through secure and compliant payment infrastructure.
           </Text>
 
           <Heading
