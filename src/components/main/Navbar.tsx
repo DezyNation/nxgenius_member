@@ -293,31 +293,6 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Services",
-    children: [
-      // {
-      //   label: "AePS Services",
-      //   subLabel: "Aadhaar based payment services",
-      //   href: "#",
-      // },
-      // {
-      //   label: "Bill Payment Services",
-      //   subLabel: "Pay utility bills on the go",
-      //   href: "#",
-      // },
-      {
-        label: "Distribute Salaries",
-        subLabel: "Distribute salaries and contractor payments",
-        href: "/auth/login",
-      },
-      // {
-      //   label: "PAN Card",
-      //   subLabel: "Apply for PAN Cards",
-      //   href: "#",
-      // },
-    ],
-  },
-  {
     label: "Contact Details",
     children: [
       {
